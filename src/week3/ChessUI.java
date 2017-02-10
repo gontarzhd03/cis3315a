@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class ChessUI {
     public static void main(String[] args) {
+        int count = 0;
         int[] rowcol = {0, 0, 0, 0};
         ChessBoard chess = new ChessBoard();
         Scanner sc = new Scanner(System.in);
@@ -16,7 +17,12 @@ public class ChessUI {
         System.out.println("Enter a starting position followed by an ending position");
         System.out.println(chess.toString());
         do {
-            System.out.print("From, To: ");
+            if(count % 2 == 0) {
+                System.out.print("White - From, To: ");
+            }
+            else {
+                System.out.print("Black - From, To: ");
+            }
             String rowcolStr = sc.nextLine();
             if(rowcolStr.equals("quit")) break;
             String[] numbers = rowcolStr.split(" ");
@@ -27,6 +33,7 @@ public class ChessUI {
                 chess.move(rowcol[0], rowcol[1], rowcol[2], rowcol[3]);
                 System.out.println("");
                 System.out.println(chess.toString());
+                count++;
             }
             else {
                System.out.println("You missed a number!");

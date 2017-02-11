@@ -30,10 +30,15 @@ public class ChessUI {
                 for(int j = 0; j < rowcol.length; j++) {
                     rowcol[j] = Integer.parseInt(numbers[j]);
                 }
-                chess.move(rowcol[0], rowcol[1], rowcol[2], rowcol[3]);
-                System.out.println("");
-                System.out.println(chess.toString());
-                count++;
+                if(rowcol[0] != 0 && chess.getPiece(rowcol[0], rowcol[1]) != '-') {
+                    chess.move(rowcol[0], rowcol[1], rowcol[2], rowcol[3]);
+                    System.out.println("");
+                    System.out.println(chess.toString());
+                    count++;
+                }
+                else {
+                    System.out.println("Invalid move!");
+                }
             }
             else {
                System.out.println("You missed a number!");

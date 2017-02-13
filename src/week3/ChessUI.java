@@ -12,16 +12,18 @@ public class ChessUI {
         int[] rowcol = {0, 0, 0, 0};
         ChessBoard chess = new ChessBoard();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to chess game!");
-        System.out.println("Pieces use a row and column number");
-        System.out.println("Enter a starting position followed by an ending position");
+        System.out.println("Welcome to the chess game!");
+        System.out.println("Game pieces use a row and column number pair");
+        System.out.println("Enter a starting row column then an ending row column");
+        System.out.println("Example: 2 1 4 1");
+        System.out.println("Type quit to exit.");
         System.out.println(chess.toString());
         do {
             if(count % 2 == 0) {
-                System.out.print("White - From, To: ");
+                System.out.print("White-> From R C, To R C: ");
             }
             else {
-                System.out.print("Black - From, To: ");
+                System.out.print("Black-> From R C, To R C: ");
             }
             String rowcolStr = sc.nextLine();
             if(rowcolStr.equals("quit")) break;

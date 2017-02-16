@@ -67,6 +67,15 @@ class Student extends C11N2Person {
     public Student(String status) {
         this.status = status;
     }
+
+    public String getStatus() {
+        return status;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" + "status=" + status + '}';
+    }
     
 }
 

@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class C11N11Sort {
     public static void sort(ArrayList<Integer> list) {
         list.sort((Integer n1, Integer n2) -> n1 - n2);
+//      list.sort(Comparator.naturalOrder());
     }
     public static void sort2(ArrayList<Integer> list) {
         for(int i = 0; i < list.size(); i++) {

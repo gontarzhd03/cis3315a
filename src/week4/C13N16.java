@@ -45,7 +45,14 @@ class Fraction {
     public String toString() {
         return "Fraction{" + "numerator=" + numerator + ", denominator=" + denominator + '}';
     }
-    
+    public Fraction Add(Fraction in) {
+        if(getDenominator() == in.getDenominator()) {
+            return new Fraction(getNumerator() + in.getNumerator(), in.getDenominator());
+        }
+        else {
+            // not sure what do do!
+        }
+    }
 }
 public class C13N16 {
     private int operation;

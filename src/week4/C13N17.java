@@ -62,10 +62,13 @@ class Complex implements Cloneable {
     public String toString() {
         return b == 0 ? String.format("(%.4f)", a) : String.format("(%.4f + %.4fi)", a, b);
     }
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
 
 public class C13N17 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         Complex rc;
         
         Scanner sc = new Scanner(System.in);
@@ -73,7 +76,6 @@ public class C13N17 {
         Complex c1 = new Complex(sc.nextDouble(), sc.nextDouble());
         System.out.print("Enter the second complex number: ");
         Complex c2 = new Complex(sc.nextDouble(), sc.nextDouble());
-        
         rc = c1.add(c2);
         System.out.println(c1 + " + " + c2 + " = " + rc);
         

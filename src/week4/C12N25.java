@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author hgontarz
  */
-public class C11N25 {
+public class C12N25 {
     public void readData() {
         String trash;
         double[] salarySum = {0.0, 0.0, 0.0};
@@ -58,7 +58,7 @@ public class C11N25 {
         readData();
     }
     public static void main(String[] args) {
-        C11N25 c12n25 = new C11N25();
+        C12N25 c12n25 = new C12N25();
         c12n25.StartIt();
     }
 }

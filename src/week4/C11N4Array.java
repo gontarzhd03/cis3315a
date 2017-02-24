@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hgontarz
+ * @author Hank Gontarz
  */
 public class C11N4Array {
     public static Integer max(ArrayList<Integer> list) {

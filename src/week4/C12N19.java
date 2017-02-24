@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hgontarz
+ * @author Hank Gontarz
  */
 public class C12N19 {
     int WordCount = 0;
@@ -26,8 +26,8 @@ public class C12N19 {
             while(sc.hasNext()) {
                 text += sc.next();
                 WordCount++;
-            }
-            rc = true;
+                rc = true;
+            }            
         }
         catch (MalformedURLException ex) {
             System.out.println("Failed to load URL: " + urlnm + " " + ex.getMessage());

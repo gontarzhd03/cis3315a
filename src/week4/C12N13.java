@@ -24,6 +24,10 @@ class AWord {
     public int getCharCount() {
         return word.length();
     }
+    @Override
+    public String toString() {
+        return "AWord{" + "word=" + word + '}';
+    }
 }
 
 class ALine {
@@ -56,13 +60,18 @@ class ALine {
         }
         return totalChars;
     }
+
+    @Override
+    public String toString() {
+        return "ALine{" + "line=" + line + '}';
+    }
 }
 
 public class C12N13 {
     private ArrayList<ALine> linelist;
     
-    public void LoadFile() {
-        final String fileName = "TestFile.txt";
+    public boolean LoadFile(String fileName) {
+        boolean rc = false;
         String line;
         
         linelist = new ArrayList();
@@ -70,11 +79,13 @@ public class C12N13 {
         try (BufferedReader reader = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
             while((line = reader.readLine()) != null) {
                 linelist.add(new ALine(line));
+                rc = true;
             }
         } 
         catch (IOException ex) {
-            System.out.println("IO Exception in StartIt");
+            System.out.println("IO Exception in LoadFile");
         }
+        return rc;
     }
     private int[] getSumWordCount() {
         int[] vals = {0, 0};
@@ -92,7 +103,15 @@ public class C12N13 {
     }
     public static void main(String[] args) {
         C12N13 c12n13 = new C12N13();
-        c12n13.LoadFile();
-        System.out.println(c12n13.printStats());
+        if(args.length > 0 && !args[0].isEmpty()) {
+            if(c12n13.LoadFile(args[0])) {
+               System.out.println(c12n13.printStats());
+            }
+        }
+        else {
+            if(c12n13.LoadFile("Salary.txt")) {
+               System.out.println(c12n13.printStats());
+            }
+        }
     }
 }

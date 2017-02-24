@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hgontarz
+ * @author Hank Gontarz
  */
 abstract class GeometricObject {
     private String color;
@@ -98,13 +98,12 @@ class Triangle extends GeometricObject {
 
     @Override
     public String toString() {
-        return "Triangle {" + "sides=" + sides + ", " + super.toString() + '}';
+        return "Triangle {" + "sides=" + sides + ", area=" + getArea() + ", perimeter=" + getPerimeter() + ", " + super.toString() + '}';
     }
-    
 }
 
 public class C13N1 {
-    public static void main(String[] args) {
+    public void StartIt() {
         boolean isfilled = false;
         ArrayList<Double> sides = new ArrayList();
         String color;
@@ -126,6 +125,15 @@ public class C13N1 {
         isfilled = line.equalsIgnoreCase("yes");
         isfilled = line.equalsIgnoreCase("y");
         Triangle tr1 = new Triangle(color, isfilled, sides);
-        System.out.println(tr1);
+        if(tr1.getArea() <= 0) {
+            System.out.println("One or more of the side lengths are invalid!");
+        }
+        else {
+            System.out.println(tr1);
+        }
+    }
+    public static void main(String[] args) {
+        C13N1 c13n1 = new C13N1();
+        c13n1.StartIt();
     }
 }

@@ -25,6 +25,6 @@ public class C11N12Sum {
                 arr.add(sc.nextDouble());
             }
         }
-        System.out.println("Summed numbers are: " + sum(arr));
+        System.out.println("The first five summed numbers are: " + sum(arr));
     }
 }

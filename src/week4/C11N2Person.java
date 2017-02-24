@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 /**
  *
- * @author 55gontarhd03
+ * @author Hank Gontarz
  */
 public class C11N2Person {
     private String name;
@@ -56,7 +56,7 @@ public class C11N2Person {
 
     @Override
     public String toString() {
-        return "C11N2Person{" + "name=" + name + ", address=" + address + ", phone=" + phone + ", email=" + email + '}';
+        return "Person {" + "name=" + name + ", address=" + address + ", phone=" + phone + ", email=" + email + '}';
     }
     
 }
@@ -68,13 +68,18 @@ class Student extends C11N2Person {
         this.status = status;
     }
 
+    public Student(String status, String name, String address, String phone, String email) {
+        super(name, address, phone, email);
+        this.status = status;
+    }
+
     public String getStatus() {
         return status;
     }
 
     @Override
     public String toString() {
-        return "Student{" + "status=" + status + '}';
+        return "Student {" + "status=" + status + "; " + super.toString() + '}';
     }
     
 }
@@ -121,7 +126,9 @@ class Employee extends C11N2Person {
 
     @Override
     public String toString() {
-        return super.toString() + "Employee{" + "office=" + office + ", salary=" + salary + ", hireDate=" + hireDate + '}';
+        return "Employee {" + "office=" + office +
+                ", salary=" + salary + ", hireDate=" + hireDate + 
+                "; " + super.toString() + '}';
     }
     
 }
@@ -158,7 +165,7 @@ class Faculty extends Employee {
 
     @Override
     public String toString() {
-        return "Faculty " + getName();
+        return "Faculty {" + getName() + "; " + super.toString() + '}';
     }
     
 }
@@ -184,14 +191,22 @@ class Staff extends Employee {
 
     @Override
     public String toString() {
-        return "Staff " + getName();
+        return "Staff {" + getName() + "; " + super.toString() + '}';
     }
     
 }
 
 class C11N2Test {
     public static void main(String[] args) {
-        C11N2Person p1 = new C11N2Person("Joe", "50 main", "555-1212", "joe@gmail.com");
-        System.out.println("p1=" + p1);
+        C11N2Person p1 = new C11N2Person("Joe", "55 Main St", "555-1212", "joe@gmail.com");
+        Student s1 = new Student("Junior", "George", "13 Elm St", "444-1212", "george@gmail.com");
+        Employee e1 = new Employee("207 Elliot", 90000, LocalDate.now(), "Dr. Pong", "15 Elmira St", "555-2121", "pong@mansfield.edu");
+        Faculty f1 = new Faculty("M,W,F 10am-12pm", "Assistant", "108 Belknap", 75000, LocalDate.now(), "John Doe", "25 Main", "570-999-9090", "jdoe@mansfield.edu");
+        Staff st1 = new Staff("Janitor", "5 Mansor", 40000, LocalDate.now(), "Fred Black", "55 Forest Ln", "570-666-5432", "fblack@gmail.com");
+        System.out.println(p1);
+        System.out.println(s1);
+        System.out.println(e1);
+        System.out.println(f1);
+        System.out.println(st1);
     }
 }

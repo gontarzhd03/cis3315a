@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hgontarz
+ * @author Hank Gontarz
  */
 class MyStack extends ArrayList {
 
@@ -42,13 +42,13 @@ class C11N10Stack {
     public static void main(String[] args) {
         MyStack st = new MyStack(10);
         Scanner sc = new Scanner(System.in);
-        System.out.println("Type 5 set of numbers: ");
+        System.out.println("Please type 5 strings: ");
         for(int i = 0; i < 5; i++) {
             if(sc.hasNextLine()) {
                 st.add(sc.nextLine());
             }
         }
-        System.out.println("\nOutput");
+        System.out.print("\nOutput: ");
         for(int i = st.getSize()-1; i >= 0; i--) {
             System.out.print(st.get(i) + " ");
         }

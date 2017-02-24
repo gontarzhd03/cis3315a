@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author 55gontarhd03
+ * @author Hank Gontarz
  */
 class Complex implements Cloneable {
     // a + bi
@@ -68,7 +68,7 @@ class Complex implements Cloneable {
 }
 
 public class C13N17 {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public void StartIt() throws CloneNotSupportedException {
         Complex rc;
         
         Scanner sc = new Scanner(System.in);
@@ -90,5 +90,13 @@ public class C13N17 {
         
         rc = c1.abs(c2);
         System.out.println("|" + c1 + "| = " + rc.getA());
+    }
+    public static void main(String[] args) {
+        try {
+            C13N17 c13n17 = new C13N17();
+            c13n17.StartIt();
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
     }
 }

@@ -109,18 +109,7 @@ class Fraction {
 
 public class C13N16 {
     private int operation;
-        
-    public boolean splitFraction(String word, int[] numdem) {
-        boolean rc = false;
-        
-        String[] frac = word.split("/");
-        if(frac.length > 1) {
-            numdem[0] = Integer.parseInt(frac[0]);
-            numdem[1] = Integer.parseInt(frac[1]);
-            rc = true;
-        }
-        return rc;
-    }
+
     public void StartIt() throws Exception {
         int[] temp = {0, 0};
         String line;

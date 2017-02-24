@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hgontarz
+ * @author Hank Gontarz (This needs more work)
  */
 public class C12N25 {
     public void readData() {

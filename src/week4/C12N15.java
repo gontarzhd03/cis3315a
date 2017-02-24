@@ -10,6 +10,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -22,7 +24,7 @@ public class C12N15 {
     public C12N15() {
         intlist = new ArrayList();
     }
-    public void createFile() {
+    public void createFile() throws IOException {
         File input = new File(fileName);
         try {
             if(input.exists()) {
@@ -35,9 +37,10 @@ public class C12N15 {
         }
         catch (IOException ex) {
             System.out.println("Failed to create file: " + fileName);
+            throw new IOException(ex);
         }
     }
-    public void writeNumbers() {
+    public void writeNumbers() throws IOException {
         String tmp = "";
         
         Random rand = new Random();
@@ -49,9 +52,10 @@ public class C12N15 {
             writer.write(tmp);
         } catch (IOException ex) {
             System.out.println("Failed to write to file: " + fileName);
+            throw new IOException(ex);
         }
     }
-    public void readNumbers() {
+    public void readNumbers() throws IOException {
         String line;
         
         Path path = Paths.get(fileName);
@@ -59,12 +63,13 @@ public class C12N15 {
             while((line = reader.readLine()) != null) {
                 if(line.trim().isEmpty()) continue;
                 String[] data = line.split(" ");
-                for(int i = 0; i < data.length; i++) {
-                    intlist.add(Integer.parseInt(data[i]));
+                for (String data1 : data) {
+                    intlist.add(Integer.parseInt(data1));
                 }
             }
         } catch (IOException ex) {
             System.out.println("Failed to read from file: " + fileName);
+            throw new IOException(ex);
         }
     }
     public void sortNumbers() {
@@ -73,21 +78,25 @@ public class C12N15 {
     public void displayNumbers() {        
         for(int i = 1; i <= intlist.size(); i++) {
             if(i % 10 == 0) {
-                System.out.printf("%2d ", intlist.get(i-1).intValue());
+                System.out.printf("%2d ", intlist.get(i-1));
                 System.out.println("");
             }
             else {
-                System.out.printf("%2d ", intlist.get(i-1).intValue());
+                System.out.printf("%2d ", intlist.get(i-1));
             }
         }
         System.out.println("");
     }
     public void StartIt() {
-        createFile();
-        writeNumbers();
-        readNumbers();
-        sortNumbers();
-        displayNumbers();
+        try {
+            createFile();
+            writeNumbers();
+            readNumbers();
+            sortNumbers();
+            displayNumbers();
+        } catch (IOException ex) {
+            Logger.getLogger(C12N15.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     public static void main(String[] args) {
         C12N15 c12n15 = new C12N15();

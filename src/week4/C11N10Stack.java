@@ -42,7 +42,7 @@ class C11N10Stack {
     public static void main(String[] args) {
         MyStack st = new MyStack(10);
         Scanner sc = new Scanner(System.in);
-        System.out.println("Type 5 set of numbers");
+        System.out.println("Type 5 set of numbers: ");
         for(int i = 0; i < 5; i++) {
             if(sc.hasNextLine()) {
                 st.add(sc.nextLine());

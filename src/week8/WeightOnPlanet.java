@@ -2,21 +2,17 @@ package week8;
 
 import javafx.application.Application;
 import static javafx.application.Application.launch;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
-import javafx.scene.paint.*;
-import javafx.scene.text.*;
 import javafx.stage.Stage;
 
 /**
  *
  * Create JavaFX app that given weight of person on Earth, calculate the weight
  * of another person on the MOON, VENUS, MARS, JUPITER.
- * @author 55gontarhd03
+ * @author Hank Gontarz
  */
 public class WeightOnPlanet extends Application {
     private static final double GRAVITY_MOON = 0.17;
@@ -50,8 +46,27 @@ public class WeightOnPlanet extends Application {
         tfMoon = new TextField();
         tfMoon.setEditable(false);
         gridPane.add(tfMoon, 1, 1);
-//## Create other planets
-
+//## Venus
+        Label lbVenus = new Label("Venus");
+        lbVenus.setStyle("-fx-font-size: 18pt; -fx-text-fill: #0000ff;");
+        gridPane.add(lbVenus, 0, 2);
+        tfVenus = new TextField();
+        tfVenus.setEditable(false);
+        gridPane.add(tfVenus, 1, 2);
+//## Mars
+        Label lbMars = new Label("Mars");
+        lbMars.setStyle("-fx-font-size: 18pt; -fx-text-fill: #0000ff;");
+        gridPane.add(lbMars, 0, 3);
+        tfMars = new TextField();
+        tfMars.setEditable(false);
+        gridPane.add(tfMars, 1, 3);
+//## Jupiter
+        Label lbJupiter = new Label("Jupiter");
+        lbJupiter.setStyle("-fx-font-size: 18pt; -fx-text-fill: #0000ff;");
+        gridPane.add(lbJupiter, 0, 4);
+        tfJupiter = new TextField();
+        tfJupiter.setEditable(false);
+        gridPane.add(tfJupiter, 1, 4);
 //## Other controls
         Button btn = new Button();
         btn.setText("Calculate");
@@ -77,8 +92,14 @@ public class WeightOnPlanet extends Application {
     public void calculate() {
         double weight = Double.parseDouble(tfEarth.getText());
         double moonWeight = weight * GRAVITY_MOON;
+        double venusWeight = weight * GRAVITY_VENUS;
+        double marsWeight = weight * GRAVITY_MARS;
+        double jupiterWeight = weight * GRAVITY_JUPITER;
         
         tfMoon.setText(String.format("%.2f", moonWeight));
+        tfVenus.setText(String.format("%.2f", venusWeight));
+        tfMars.setText(String.format("%.2f", marsWeight));
+        tfJupiter.setText(String.format("%.2f", jupiterWeight));
     }
     /**
      * @param args the command line arguments

@@ -2,54 +2,65 @@ package week10;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
+import java.io.PrintWriter;
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
-import javafx.scene.input.KeyCombination;
-import javafx.scene.layout.BorderPane;
-import javafx.stage.*;
-import static javafx.application.Application.launch;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
+import javafx.scene.control.MenuItem;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
+import javafx.scene.layout.BorderPane;
+import javafx.stage.FileChooser;
+import javafx.stage.Stage;
+
 /**
+ * A JavaFX 8 program to help experiment with data structures and algorithms.
  *
- * @author 55gontarhd03
+ * @author John Phillips
  */
 public class DataStructureTester extends Application {
 
-    Label lbStatus;
-    ScrollPane myData;
-    TextArea taData;
     Stage pStage;
+    TextArea taStatus;
+    ScrollPane spStatus;
+    TextArea taData;
+    ScrollPane spData;
 
     @Override
     public void start(Stage primaryStage) {
         pStage = primaryStage;
-        lbStatus = new Label("Status: starting JavaFXLife...");
-        taData = new TextArea();
-        taData.setWrapText(true);
-        myData = new ScrollPane(taData);
-        myData.setFitToWidth(true);
-        myData.setFitToHeight(true);
-        for(int i = 0; i < 1000; i++) {
-            taData.appendText("" + i + "\n");
-        }
 
-        
+        taData = new TextArea();
+        spData = new ScrollPane(taData);
+        spData.setFitToWidth(true);
+        spData.setFitToHeight(true);
+
+        taStatus = new TextArea();
+        spStatus = new ScrollPane(taStatus);
+        spStatus.setFitToWidth(true);
+        spStatus.setPrefViewportHeight(50);
+//        spStatus.setFitToHeight(true);
+
         BorderPane borderPane = new BorderPane();
         borderPane.setTop(myMenuBar());
-        borderPane.setCenter(myData);
-        borderPane.setBottom(lbStatus);
+        borderPane.setCenter(spData);
+        borderPane.setBottom(spStatus);
 
-        Scene scene = new Scene(borderPane, 800, 500);
-        primaryStage.setTitle("JavaFXLife");
+
+//        Scene scene = new Scene(borderPane, 800, 500);
+        Scene scene = new Scene(borderPane);
+        primaryStage.setTitle("Data Structures");
         primaryStage.setScene(scene);
 
+//        primaryStage.setMaximized(true);
+//        primaryStage.setFullScreen(true);
         primaryStage.hide();
         primaryStage.show();
     }
@@ -59,15 +70,18 @@ public class DataStructureTester extends Application {
      *
      * FYI: menu accelerator key codes are listed at:
      * https://docs.oracle.com/javase/8/javafx/api/javafx/scene/input/KeyCode.html
+     *
+     * @return
      */
     public MenuBar myMenuBar() {
         MenuBar myBar = new MenuBar();
         final Menu fileMenu = new Menu("File");
-        final Menu speedMenu = new Menu("Speed");
-        final Menu optionsMenu = new Menu("Options");
+        final Menu dataMenu = new Menu("Data");
+        final Menu sortMenu = new Menu("Sort");
+        final Menu searchMenu = new Menu("Search");
         final Menu helpMenu = new Menu("Help");
 
-        myBar.getMenus().addAll(fileMenu, speedMenu, optionsMenu, helpMenu);
+        myBar.getMenus().addAll(fileMenu, dataMenu, sortMenu, searchMenu, helpMenu);
 
         /**
          * *********************************************************************
@@ -75,19 +89,17 @@ public class DataStructureTester extends Application {
          */
         MenuItem newCanvas = new MenuItem("New");
         newCanvas.setOnAction((ActionEvent e) -> {
-
+            taData.clear();
         });
         fileMenu.getItems().add(newCanvas);
 
         MenuItem open = new MenuItem("Open");
         open.setOnAction((ActionEvent e) -> {
-
             FileChooser fileChooser = new FileChooser();
             File file = fileChooser.showOpenDialog(pStage);
             if (file != null) {
                 readFile(file);
             }
-
         });
         fileMenu.getItems().add(open);
 
@@ -101,121 +113,64 @@ public class DataStructureTester extends Application {
             }
         });
         fileMenu.getItems().add(save);
-        MenuItem exit = new MenuItem("Exit");
 
+        MenuItem exit = new MenuItem("Exit");
         exit.setOnAction(e -> System.exit(0));
         fileMenu.getItems().add(exit);
 
         /**
          * *********************************************************************
-         * Speed Menu Section
+         * Data Menu Section
          */
-        MenuItem pause = new MenuItem("Pause");
-        pause.setAccelerator(KeyCombination.valueOf("Left"));
-//        pause.setOnAction(e -> myData.pause());
-        speedMenu.getItems().add(pause);
+        MenuItem miGenerateIntegers = new MenuItem("Generate Integers");
+        dataMenu.getItems().add(miGenerateIntegers);
+        miGenerateIntegers.setOnAction(e -> {
+            for (int i = 0; i < 1000; i++) {
+                taData.appendText("" + i + "\n");
+            }
+        });
+        
+        MenuItem miRandom = new MenuItem("Randomize Data");
+        dataMenu.getItems().add(miRandom);
+        miRandom.setOnAction(e -> {
+            
+        });
+        /**
+         * *********************************************************************
+         * Sort Menu Section
+         */
+        MenuItem miSelectionSortAsc = new MenuItem("Selection Sort Ascending");
+        sortMenu.getItems().add(miSelectionSortAsc);
 
-        MenuItem play = new MenuItem("Play");
-        play.setAccelerator(KeyCombination.valueOf("Right"));
-//        play.setOnAction(e -> myData.play());
-        speedMenu.getItems().add(play);
+        MenuItem miSelectionSortDsc = new MenuItem("Selection Sort Descending");
+        sortMenu.getItems().add(miSelectionSortDsc);
 
-        MenuItem faster = new MenuItem("Faster");
-        faster.setAccelerator(KeyCombination.valueOf("Up"));
-//        faster.setOnAction(e -> myData.increaseSpeed());
-        speedMenu.getItems().add(faster);
+        MenuItem miMergeSortAsc = new MenuItem("Merge Sort Ascending");
+        sortMenu.getItems().add(miMergeSortAsc);
 
-        MenuItem fasterx10 = new MenuItem("Faster x 10");
-        fasterx10.setAccelerator(KeyCombination.keyCombination("Ctrl+Up"));
-//        fasterx10.setOnAction(e -> myData.increaseSpeedx10());
-        speedMenu.getItems().add(fasterx10);
-
-        MenuItem fasterx100 = new MenuItem("Faster x 100");
-        fasterx100.setAccelerator(KeyCombination.keyCombination("Ctrl+Shift+Up"));
-//        fasterx100.setOnAction(e -> myData.increaseSpeedx100());
-        speedMenu.getItems().add(fasterx100);
-
-        MenuItem slower = new MenuItem("Slower");
-        slower.setAccelerator(KeyCombination.keyCombination("Down"));
-//        slower.setOnAction(e -> myData.decreaseSpeed());
-        speedMenu.getItems().add(slower);
-
-        MenuItem slowerx10 = new MenuItem("Slower x 10");
-        slowerx10.setAccelerator(KeyCombination.keyCombination("Ctrl+Down"));
-//        slowerx10.setOnAction(e -> myData.decreaseSpeedx10());
-        speedMenu.getItems().add(slowerx10);
-
-        MenuItem slowerx100 = new MenuItem("Slower x 100");
-        slowerx100.setAccelerator(KeyCombination.keyCombination("Ctrl+Shift+Down"));
-//        slowerx100.setOnAction(e -> myData.decreaseSpeedx100());
-        speedMenu.getItems().add(slowerx100);
+        MenuItem miMergeSortDsc = new MenuItem("Merge Sort Descending");
+        sortMenu.getItems().add(miMergeSortDsc);
 
         /**
          * *********************************************************************
-         * Options Menu Section
+         * Search Menu Section
          */
-        MenuItem randomize = new MenuItem("Randomize Cells");
-        randomize.setAccelerator(KeyCombination.keyCombination("Ctrl+R"));
-//        randomize.setOnAction(e -> myData.randomizeCells());
-        optionsMenu.getItems().add(randomize);
+        MenuItem miSequentialSearch = new MenuItem("Sequential Search");
+        searchMenu.getItems().add(miSequentialSearch);
 
-        CheckMenuItem color = new CheckMenuItem("Color Cells");
-        color.setAccelerator(KeyCombination.keyCombination("Ctrl+C"));
-//        color.setOnAction(e -> myData.setShowColors(color.isSelected()));
-        optionsMenu.getItems().add(color);
-
-        CheckMenuItem full = new CheckMenuItem("Full screen");
-        full.setAccelerator(KeyCombination.keyCombination("Ctrl+F"));
-        full.setOnAction(e -> {
-            if(pStage.isFullScreen()) {
-                pStage.setMaximized(false);
-                pStage.setFullScreen(false);
-            }
-            else {
-                pStage.setMaximized(true);
-                pStage.setFullScreen(true);
-            }
-        });
-        optionsMenu.getItems().add(full);
-        
+        MenuItem miBinarySearch = new MenuItem("Binary Search");
+        searchMenu.getItems().add(miBinarySearch);
 
         /**
          * *********************************************************************
          * Help Menu Section
          */
-        
-        MenuItem jp = new MenuItem("JP");
-        jp.setOnAction(e -> {
-
-        });
-        helpMenu.getItems().add(jp);        
-        
-        MenuItem acorn = new MenuItem("Acorn");
-        acorn.setOnAction(e -> {
-
-        });
-        helpMenu.getItems().add(acorn);
-
-        MenuItem ship = new MenuItem("Spaceship");
-        ship.setOnAction(e -> {
-
-        });
-        helpMenu.getItems().add(ship);
-
-        MenuItem gosper = new MenuItem("Gosper Glider Gun");
-        gosper.setOnAction(e -> {
-
-        });
-        helpMenu.getItems().add(gosper);
-
         MenuItem about = new MenuItem("About");
         about.setOnAction((ActionEvent e) -> {
-            String message = "Rules for Conway's Game of Life:\n"
-                    + "    1) a dead cell with exactly 3 neighbors becomes alive\n"
-                    + "    2) a living cell with 2 or 3 neighbors continues living\n";
+            String message = "DATA STRUCTURES AND ALGORITHMS\n";
             Alert alert = new Alert(Alert.AlertType.INFORMATION, message);
             alert.setTitle("About");
-            alert.setHeaderText("JavaFXLife v1.0 by John Phillips");
+            alert.setHeaderText("v1.0 by John Phillips");
             alert.showAndWait();
         });
         helpMenu.getItems().add(about);
@@ -230,15 +185,9 @@ public class DataStructureTester extends Application {
     private void readFile(File myFile) {
         int y = 0;
         try (Scanner sc = new Scanner(myFile)) {
+            taData.clear();
             while (sc.hasNextLine()) {
-                String s[] = sc.nextLine().split("");
-                System.out.println("s=" + Arrays.toString(s));
-                for (int i = 0; i < s.length; i++) {
-
-
-                }
-                y++;
-
+                taData.appendText(sc.nextLine() + "\n");
             }
         } catch (FileNotFoundException ex) {
             Logger.getLogger(DataStructureTester.class
@@ -246,23 +195,32 @@ public class DataStructureTester extends Application {
         }
     }
 
-    // only write 100x100 pattern to file
     private void writeFile(File myFile) {
-        try (FileWriter writer = new FileWriter(myFile)) {
-            StringBuilder sb = new StringBuilder("");
-            for (int y = 0; y < 100; y++) {
-                for (int x = 0; x < 100; x++) {
-
-                }
-                sb.append("\n");
+        try (PrintWriter writer = new PrintWriter(myFile)) {
+            for (String line : taData.getText().split("\\n")) {
+                writer.println(line);
             }
-            writer.write(sb.toString());
-            System.out.println(sb.toString());
         } catch (IOException ex) {
             Logger.getLogger(DataStructureTester.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+    public static int[] text2IntArray(String s, int n) {
+        int[] nums = new int[n];
+        
+        Scanner sc = new Scanner(s);
+        for(int i = 0; sc.hasNextInt(); i++) {
+            nums[i] = sc.nextInt();
+        }
+        return nums;
+    }
+    public static String intArray2Text(int[] a) {
+        StringBuilder sb = new StringBuilder();
+        String newLine = "\n";
+        for(int value : a) {
+            sb.append(Integer.toString(value)).append(newLine);
+        }
+        return sb.toString();
+    }
     /**
      * @param args the command line arguments
      */

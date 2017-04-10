@@ -19,6 +19,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import sorts.SimpleSorts;
 
 /**
  * A JavaFX 8 program to help experiment with data structures and algorithms.
@@ -135,15 +136,32 @@ public class DataStructureTester extends Application {
         miRandom.setOnAction(e -> {
             
         });
+
         /**
          * *********************************************************************
          * Sort Menu Section
          */
-        MenuItem miSelectionSortAsc = new MenuItem("Selection Sort Ascending");
-        sortMenu.getItems().add(miSelectionSortAsc);
+        MenuItem miBubbleSortAsc = new MenuItem("Bubble Sort Ascending");
+        sortMenu.getItems().add(miBubbleSortAsc);
+        miBubbleSortAsc.setOnAction(e -> {
+            int n = taData.getLength();
+            MyTimer.startMicroTime();
+            int[] nums = text2IntArray(taData.toString(), n);
+            taStatus.setText("Convert text to array took " + MyTimer.stopMicroTime() + "us");
+        });
 
-        MenuItem miSelectionSortDsc = new MenuItem("Selection Sort Descending");
-        sortMenu.getItems().add(miSelectionSortDsc);
+        MenuItem miBubbleSortDsc = new MenuItem("Bubble Sort Descending");
+        miBubbleSortDsc.setOnAction(e -> {
+            int n = taData.getLength();
+            MyTimer.startMicroTime();
+            int[] nums = text2IntArray(taData.toString(), n);
+            taStatus.setText("Convert text to array took " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            SimpleSorts.bubbleSort(nums, "D");
+            taStatus.appendText("\nSort finished in " + MyTimer.stopMicroTime() + "us");
+            taData.setText(intArray2Text(nums));
+        });
+        sortMenu.getItems().add(miBubbleSortDsc);
 
         MenuItem miMergeSortAsc = new MenuItem("Merge Sort Ascending");
         sortMenu.getItems().add(miMergeSortAsc);

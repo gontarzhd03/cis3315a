@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -19,7 +20,8 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import sorts.SimpleSorts;
+import static sorts.SimpleSorts.bubbleSort;
+
 
 /**
  * A JavaFX 8 program to help experiment with data structures and algorithms.
@@ -53,7 +55,6 @@ public class DataStructureTester extends Application {
         borderPane.setTop(myMenuBar());
         borderPane.setCenter(spData);
         borderPane.setBottom(spStatus);
-
 
 //        Scene scene = new Scene(borderPane, 800, 500);
         Scene scene = new Scene(borderPane);
@@ -124,42 +125,62 @@ public class DataStructureTester extends Application {
          * Data Menu Section
          */
         MenuItem miGenerateIntegers = new MenuItem("Generate Integers");
-        dataMenu.getItems().add(miGenerateIntegers);
+/*
         miGenerateIntegers.setOnAction(e -> {
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 10000; i++) {
                 taData.appendText("" + i + "\n");
             }
+        });*/
+        miGenerateIntegers.setOnAction(e -> {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < 100000; i++) {
+                sb.append("" + i + "\n");
+            }
+            taData.setText(sb.toString());
         });
-        
+        dataMenu.getItems().add(miGenerateIntegers);
+
         MenuItem miRandom = new MenuItem("Randomize Data");
-        dataMenu.getItems().add(miRandom);
         miRandom.setOnAction(e -> {
-            
+            int[] nums = text2IntArray(taData.getText());
+            Random gen = new Random();
+            for(int i = 0; i < nums.length; i++) {
+                int temp = nums[i];
+                int j = gen.nextInt(nums.length);
+                nums[i] = nums[j];
+                nums[j] = temp;
+            }
+            taData.setText(intArray2Text(nums));
         });
+        dataMenu.getItems().add(miRandom);
 
         /**
          * *********************************************************************
          * Sort Menu Section
          */
         MenuItem miBubbleSortAsc = new MenuItem("Bubble Sort Ascending");
-        sortMenu.getItems().add(miBubbleSortAsc);
         miBubbleSortAsc.setOnAction(e -> {
-            int n = taData.getLength();
             MyTimer.startMicroTime();
-            int[] nums = text2IntArray(taData.toString(), n);
-            taStatus.setText("Convert text to array took " + MyTimer.stopMicroTime() + "us");
+            int[] nums = text2IntArray(taData.getText());
+            taStatus.setText("Converting text to array took " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            bubbleSort(nums, "A");
+            taStatus.appendText("\nSort finished in " + MyTimer.stopMicroTime() + "us");
+            taData.setText(intArray2Text(nums));
         });
+        sortMenu.getItems().add(miBubbleSortAsc);
 
         MenuItem miBubbleSortDsc = new MenuItem("Bubble Sort Descending");
         miBubbleSortDsc.setOnAction(e -> {
-            int n = taData.getLength();
             MyTimer.startMicroTime();
-            int[] nums = text2IntArray(taData.toString(), n);
-            taStatus.setText("Convert text to array took " + MyTimer.stopMicroTime() + "us");
+            int[] nums = text2IntArray(taData.getText());
+            taStatus.setText("Converting text to array took " + MyTimer.stopMicroTime() + "us");
             MyTimer.startMicroTime();
-            SimpleSorts.bubbleSort(nums, "D");
+            bubbleSort(nums, "D");
             taStatus.appendText("\nSort finished in " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
             taData.setText(intArray2Text(nums));
+            taStatus.appendText("\nArray to text finished in " + MyTimer.stopMicroTime() + "us");
         });
         sortMenu.getItems().add(miBubbleSortDsc);
 
@@ -222,23 +243,26 @@ public class DataStructureTester extends Application {
             Logger.getLogger(DataStructureTester.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    public static int[] text2IntArray(String s, int n) {
-        int[] nums = new int[n];
-        
+
+    public static int[] text2IntArray(String s) {
         Scanner sc = new Scanner(s);
-        for(int i = 0; sc.hasNextInt(); i++) {
+        int n = s.split("\n").length;
+        int[] nums = new int[n];
+        for (int i = 0; sc.hasNextInt(); i++) {
             nums[i] = sc.nextInt();
         }
         return nums;
     }
+
     public static String intArray2Text(int[] a) {
         StringBuilder sb = new StringBuilder();
         String newLine = "\n";
-        for(int value : a) {
+        for (int value : a) {
             sb.append(Integer.toString(value)).append(newLine);
         }
         return sb.toString();
     }
+
     /**
      * @param args the command line arguments
      */

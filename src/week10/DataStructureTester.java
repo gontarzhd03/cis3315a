@@ -20,12 +20,13 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import static sorts.SimpleSorts.bubbleSort;
+import static sorts.SimpleSorts.*;
+
 
 
 /**
  * A JavaFX 8 program to help experiment with data structures and algorithms.
- *
+ * For homework add a selection sort asc/desc; two menu options
  * @author John Phillips
  */
 public class DataStructureTester extends Application {
@@ -184,10 +185,39 @@ public class DataStructureTester extends Application {
         });
         sortMenu.getItems().add(miBubbleSortDsc);
 
+        MenuItem miSelectionSortAsc = new MenuItem("Selection Sort Ascending");
+        miSelectionSortAsc.setOnAction(e -> {
+        });
+        sortMenu.getItems().add(miSelectionSortAsc);
+        
+        MenuItem miSelectionSortDsc = new MenuItem("Selection Sort Descending");
+        miSelectionSortDsc.setOnAction(e -> {
+        });
+        sortMenu.getItems().add(miSelectionSortDsc);
+        
+        
         MenuItem miMergeSortAsc = new MenuItem("Merge Sort Ascending");
+        miMergeSortAsc.setOnAction(e -> {
+            MyTimer.startMicroTime();
+            int[] nums = text2IntArray(taData.getText());
+            taStatus.setText("Converting text to array took " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            mergeSort(nums, "A");
+            taStatus.appendText("\nSort finished in " + MyTimer.stopMicroTime() + "us");
+            taData.setText(intArray2Text(nums));
+        });
         sortMenu.getItems().add(miMergeSortAsc);
 
         MenuItem miMergeSortDsc = new MenuItem("Merge Sort Descending");
+        miMergeSortDsc.setOnAction(e -> {
+            MyTimer.startMicroTime();
+            int[] nums = text2IntArray(taData.getText());
+            taStatus.setText("Converting text to array took " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            mergeSort(nums, "D");
+            taStatus.appendText("\nSort finished in " + MyTimer.stopMicroTime() + "us");
+            taData.setText(intArray2Text(nums));
+        });
         sortMenu.getItems().add(miMergeSortDsc);
 
         /**

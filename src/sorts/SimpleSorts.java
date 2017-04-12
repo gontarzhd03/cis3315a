@@ -12,8 +12,8 @@ public class SimpleSorts {
         for (out = a.length - 1; out > 0 && moreChanges; out--) {
             moreChanges = false;
             for (in = 0; in < out; in++) {
-                if (a[in] > a[in + 1] && direction.equalsIgnoreCase("A")
-                        || a[in] < a[in + 1] && direction.equalsIgnoreCase("D")) {
+                if (a[in] > a[in + 1] && direction.equalsIgnoreCase("A") ||
+                    a[in] < a[in + 1] && direction.equalsIgnoreCase("D")) {
                     int temp = a[in];
                     a[in] = a[in + 1];
                     a[in + 1] = temp;
@@ -61,6 +61,27 @@ public class SimpleSorts {
         }
         for(j = 0; j < n; j++) {
             a[lowerBound + j] = workSpace[j];
+        }
+    }
+    public static void selectionSort(int[] list, String direction) {
+        for(int i = 0; i < list.length - 1; i++) {
+            int currentMin = list[i];
+            int currentMinIndex = i;
+            
+            for(int j = i + 1; j < list.length; j++) {
+                if(direction.equalsIgnoreCase("A") && currentMin > list[j]) {
+                    currentMin = list[j];
+                    currentMinIndex = j;
+                }
+                else if(direction.equalsIgnoreCase("D") && currentMin < list[j]) {
+                    currentMin = list[j];
+                    currentMinIndex = j;
+                }
+            }
+            if(currentMinIndex != i) {
+                list[currentMinIndex] = list[i];
+                list[i] = currentMin;
+            }
         }
     }
 }

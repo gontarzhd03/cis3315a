@@ -20,6 +20,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import static sorts.ComplexSorts.*;
 import static sorts.SimpleSorts.*;
 
 
@@ -134,7 +135,7 @@ public class DataStructureTester extends Application {
         });*/
         miGenerateIntegers.setOnAction(e -> {
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < 100000; i++) {
+            for (int i = 0; i < 100; i++) {
                 sb.append("" + i + "\n");
             }
             taData.setText(sb.toString());
@@ -213,6 +214,33 @@ public class DataStructureTester extends Application {
         });
         sortMenu.getItems().add(miSelectionSortDsc);
         
+        MenuItem miInsertionSortAsc = new MenuItem("Insertion Sort Ascending");
+        miInsertionSortAsc.setOnAction(e -> {
+            MyTimer.startMicroTime();
+            int[] nums = text2IntArray(taData.getText());
+            taStatus.setText("Converting text to array took " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            insertionSort(nums, "A");
+            taStatus.appendText("\nSort finished in " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            taData.setText(intArray2Text(nums));
+            taStatus.appendText("\nArray to text finished in " + MyTimer.stopMicroTime() + "us");
+        });
+        sortMenu.getItems().add(miInsertionSortAsc);
+        
+        MenuItem miInsertionSortDes = new MenuItem("Insertion Sort Descending");
+        miInsertionSortDes.setOnAction(e -> {
+            MyTimer.startMicroTime();
+            int[] nums = text2IntArray(taData.getText());
+            taStatus.setText("Converting text to array took " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            insertionSort(nums, "D");
+            taStatus.appendText("\nSort finished in " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            taData.setText(intArray2Text(nums));
+            taStatus.appendText("\nArray to text finished in " + MyTimer.stopMicroTime() + "us");
+        });
+        sortMenu.getItems().add(miInsertionSortDes);
         
         MenuItem miMergeSortAsc = new MenuItem("Merge Sort Ascending");
         miMergeSortAsc.setOnAction(e -> {
@@ -238,6 +266,30 @@ public class DataStructureTester extends Application {
         });
         sortMenu.getItems().add(miMergeSortDsc);
 
+        MenuItem miQuickSortAsc = new MenuItem("Quick Sort Ascending");
+        miQuickSortAsc.setOnAction(e -> {
+            MyTimer.startMicroTime();
+            int[] nums = text2IntArray(taData.getText());
+            taStatus.setText("Converting text to array took " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            quickSort(nums, "A");
+            taStatus.appendText("\nSort finished in " + MyTimer.stopMicroTime() + "us");
+            taData.setText(intArray2Text(nums));
+        });
+        sortMenu.getItems().add(miQuickSortAsc);
+
+        MenuItem miQuickSortDsc = new MenuItem("Quick Sort Descending");
+        miQuickSortDsc.setOnAction(e -> {
+            MyTimer.startMicroTime();
+            int[] nums = text2IntArray(taData.getText());
+            taStatus.setText("Converting text to array took " + MyTimer.stopMicroTime() + "us");
+            MyTimer.startMicroTime();
+            quickSort(nums, "D");
+            taStatus.appendText("\nSort finished in " + MyTimer.stopMicroTime() + "us");
+            taData.setText(intArray2Text(nums));
+        });
+        sortMenu.getItems().add(miQuickSortDsc);
+        
         /**
          * *********************************************************************
          * Search Menu Section

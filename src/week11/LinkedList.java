@@ -6,30 +6,41 @@ package week11;
  */
 public class LinkedList {
     private Link first;
-
+    private Link last;
+    public int length;
+    
     public LinkedList() {
         first = null;
+        last = null;
+        length = 0;
     }
     public boolean isEmpty() {
         return (first == null);
     }
-    public void push(double data) {
+    public void push(Friend data) {
         Link newLink = new Link(data);
         newLink.next = first;
         first = newLink;
+        length++;
     }
     public Link pop() {
-        Link temp = first;
-        first = first.next;
-        return temp;
+        if(length > 0) {
+            Link temp = first;
+            first = first.next;
+            length--;
+            return temp;
+        }
+        return null;
     }
     public Link peek() {
         return first;
     }
-    
-    public Link find(double key) {
+    public Link remove() {
+        return null;
+    }
+    public Link find(String key) {
         Link current = first;
-        while(current.data != key) {
+        while(current.data.getName() != key) {
             if(current.next == null) {
                 return null;
             }
@@ -62,6 +73,7 @@ public class LinkedList {
             else {
                 previous.next = current.next;
             }
+            length--;
         }
         return current;
     }
@@ -78,17 +90,18 @@ public class LinkedList {
     }
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-        list.push(25.1);
-        list.push(39.2);
-        list.push(10.3);
+        list.push(new Friend("Tom", 5));
+        list.push(new Friend("Mary", 7));
+        list.push(new Friend("Steve", 6));
+        System.out.println("Length is : " + list.length);
         System.out.println("Peek at item : " + list.peek());
         System.out.println("Pop item : " + list.pop());
         
         System.out.println(list.toString());
-        System.out.println("Match for item : " + list.find(39.2));
-        System.out.println("Match for item : " + list.find(0.0));
+        System.out.println("Match for item : " + list.find("Tom"));
+        System.out.println("Match for item : " + list.find("Steve"));
         
-        list.delete(2);
+//        list.delete(2);
         System.out.println(list.toString());
     }
 }

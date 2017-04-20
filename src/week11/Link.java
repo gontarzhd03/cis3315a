@@ -1,20 +1,23 @@
 package week11;
 
 /**
+ * Represents a single link object.
  *
- * @author Hank Gontarz
+ * @author 55jphillip
  */
 public class Link {
-    public Friend data;
+
+    public Friend data; // can replace this with any kind of object
     public Link next;
+    public Link previous;
 
     public Link(Friend data) {
         this.data = data;
         this.next = null;
+        this.previous = null;
     }
 
-    @Override
     public String toString() {
-        return "" + data.toString();
+        return data.toString();
     }
 }

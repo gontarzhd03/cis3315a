@@ -135,7 +135,7 @@ public class DataStructureTester extends Application {
         });*/
         miGenerateIntegers.setOnAction(e -> {
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 20000; i++) {
                 sb.append("" + i + "\n");
             }
             taData.setText(sb.toString());

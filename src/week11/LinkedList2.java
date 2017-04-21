@@ -130,10 +130,11 @@ public class LinkedList2 {
     public String toString() {
         StringBuilder sb = new StringBuilder("");
         Link current = first;
-
+        int index = 0;
         while (current != null) {
-            sb.append(current.toString()).append("\n");
+            sb.append(index).append(":").append(current.toString()).append("\n");
             current = current.next;
+            index++;
         }
         return sb.toString();
     }

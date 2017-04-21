@@ -1,5 +1,6 @@
 package week11;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -11,26 +12,56 @@ public class BBApp {
     
     public BBApp() {
         this.list = new LinkedList2();
+        
         start();
     }
     public void start() {
         String choice = "";
-        String regex = "^quit|add|delete|list$";
+        String regex = "^add|delete|list|name|reverse|rating|search|range|quit$";
         
         Scanner sc = new Scanner(System.in);
         while(true) {
             menu();
             choice = Validator.getLine(sc, "Enter your choice: ", regex);
-            if(choice.equalsIgnoreCase("quit")) {
-                break;
-            }
-            else if(choice.equalsIgnoreCase("add")) {
+
+            if(choice.equalsIgnoreCase("add")) {
                 String name = Validator.getLine(sc, "Enter friend's name: ");
                 int rating = Validator.getInt(sc, "Enter rating: ");
                 list.push(new Friend(name, rating));
             }
+            else if(choice.equalsIgnoreCase("remove")) {
+                int index = Validator.getInt(sc, "Enter index to remove: ");
+                list.delete(index);
+            }
             else if(choice.equalsIgnoreCase("list")) {
                 System.out.println(list);
+            }
+            else if(choice.equalsIgnoreCase("name")) {
+                Friend[] fa = list.toArray();
+                Arrays.sort(fa, (a, b) -> a.getName().compareTo(b.getName()));
+                for(Friend f : fa) {
+                    System.out.println(f);
+                }
+            }
+            else if(choice.equalsIgnoreCase("reverse")) {
+                Friend[] fa = list.toArray();
+                Arrays.sort(fa, (a, b) -> b.getName().compareTo(a.getName()));
+                for(Friend f : fa) {
+                    System.out.println(f);
+                }
+            }
+            else if(choice.equalsIgnoreCase("rating")) {
+                Friend[] fa = list.toArray();
+                Arrays.sort(fa, (a, b) -> Integer.compare(a.getRating(), b.getRating()));
+                for(Friend f : fa) {
+                    System.out.println(f);
+                }
+            }
+            else if(choice.equalsIgnoreCase("search")) {
+                
+            }
+            else if(choice.equalsIgnoreCase("quit")) {
+                break;
             }
         }
     }

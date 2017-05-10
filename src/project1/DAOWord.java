@@ -1,7 +1,5 @@
 package project1;
 
-import static Ch7Array.C7StatsStatic.avg;
-import static Ch7Array.C7StatsStatic.sqrt;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -17,7 +15,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ * 12/08/2016
  * @author Hank Gontarz
  */
 public class DAOWord {
@@ -112,6 +110,17 @@ public class DAOWord {
     }
     public String orderByWordLen() {
         wordlist.sort(Comparator.comparing(Word::getLength));
+        return this.toString();
+    }
+    public String orderByWordTypeLength() {
+        wordlist.sort((Word w1, Word w2) -> {
+            if(w1.getWordType().equals(w2.getWordType())) {
+                return Double.compare(w1.getLength(), w2.getLength());
+            }
+            else {
+                return w1.getWordType().compareTo(w2.getWordType());
+            }
+        });
         return this.toString();
     }
     public String getStats() {

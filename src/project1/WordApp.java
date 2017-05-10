@@ -4,7 +4,7 @@ import java.util.Scanner;
 import utilities.Prompt;
 
 /**
- * 
+ * 12/08/2016
  * @author Hank Gontarz
  */
 public class WordApp {
@@ -36,8 +36,9 @@ public class WordApp {
             System.out.println("9 = Retrieve All: Order by Word");
             System.out.println("10 = Retrieve All: Order by Definition");
             System.out.println("11 = Retrieve All: Order by Word Length");
-            System.out.println("12 = Show Statistics");
-            choice = Prompt.getInt("Number of choice: ", 0, 12);
+            System.out.println("12 = Retrieve All: Order by Word Type & Length");
+            System.out.println("13 = Show Statistics");
+            choice = Prompt.getInt("Number of choice: ", 0, 13);
 
             if(choice == 1) {
                 System.out.println(data.toString());
@@ -85,6 +86,9 @@ public class WordApp {
                 System.out.println(data.orderByWordLen());
             }
             else if(choice == 12) {
+                System.out.println(data.orderByWordTypeLength());
+            }
+            else if(choice == 13) {
                 System.out.println(data.getStats());
             }
         }

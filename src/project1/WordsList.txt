@@ -1,0 +1,1001 @@
+1/Adjective/a-ok(p)/in perfect condition or order
+2/Verb/abacinate/blind by holding a red-hot metal plate before someone's eyes
+3/Adverb/aback/by surprise
+4/Adverb/aback/having the wind against the forward side of the sails
+5/Adjective/abactinal/(of radiate animals) located on the surface or end opposite to that on which the mouth is situated
+6/Verb/abandon/stop maintaining or insisting on; of ideas or claims
+7/Verb/abandon/leave someone who needs or counts on you; leave in the lurch
+8/Verb/abandon/give up with the intent of never claiming again
+9/Verb/abandon/forsake, leave behind
+10/Adjective/abandoned/forsaken by owner or inhabitants
+11/Adjective/abandoned/free from constraint
+12/Adjective/abashed/feeling or caused to feel uneasy and self-conscious
+13/Adjective/abasic/of or relating to abasia (inability to walk)
+14/Adjective/abatable/capable of being abated
+15/Verb/abate/become less in amount or intensity
+16/Adjective/abaxial/facing away from the axis of an organ or organism
+17/Adverb/abaxially/in an abaxial manner
+18/Adjective/abbatial/of or having to do with or belonging to an abbey or abbot, or abbess
+19/Verb/abbreviate/shorten
+20/Adjective/abbreviated/(of clothing) very short
+21/Adjective/abbreviated/cut short in duration
+22/Adjective/abdicable/capable of being discarded or renounced or relinquished
+23/Verb/abdicate/give up, such as power, as of monarchs and emperors, or duties and obligations
+24/Adjective/abdominal/of or relating to or near the abdomen
+25/Adjective/abdominous/having a large belly
+26/Adjective/abdominovesical/of or relating to the abdomen and the urinary bladder
+27/Adjective/abducent/especially of muscles; drawing away from the midline of the body or from an adjacent part
+28/Verb/abduct/pull away from the body
+29/Adverb/abeam/at right angles to the length of a ship or airplane
+30/Adjective/abecedarian/alphabetically arranged (as for beginning readers)
+31/Adverb/abed/in bed
+32/Adjective/aberrant/markedly different from an accepted norm
+33/Verb/aberrate/diverge or deviate from the straight path; produce aberration
+34/Verb/aberrate/diverge from the expected
+35/Verb/abet/assist or encourage, usually in some wrongdoing
+36/Adjective/abeyant/inactive but capable of becoming active
+37/Verb/abhor/find repugnant
+38/Adjective/abhorrent/offensive to the mind
+39/Adjective/abiding/unceasing
+40/Adjective/abient/characterized by avoidance or withdrawal
+41/Adjective/abiogenetic/originating by abiogenesis
+42/Adjective/abject/showing humiliation or submissiveness
+43/Adjective/abject/of the most contemptible kind
+44/Adjective/abject/most unfortunate or miserable
+45/Adjective/abject/showing utter resignation or hopelessness
+46/Adverb/abjectly/in a hopeless resigned manner
+47/Verb/abjure/formally reject or disavow a formerly held belief, usually under pressure
+48/Verb/ablate/remove an organ or bodily structure
+49/Verb/ablate/wear away through erosion or vaporization
+50/Adjective/ablated/made smaller or less by melting or erosion or vaporization
+51/Adjective/ablative/tending to ablate; i.e. to be removed or vaporized at very high temperature
+52/Adjective/ablative/relating to the ablative case
+53/Adjective/ablaze/resembling flame in brilliance or color
+54/Adjective/ablaze/keenly excited (especially sexually) or indicating excitement
+55/Adjective/ablaze(p)/lighted with red light as if with flames
+56/Adjective/ablaze(p)/lighted up by or as by fire or flame
+57/Adjective/able/(usually followed by `to') having the necessary means or skill or know-how or authority to do something
+58/Adjective/able/having a strong healthy body
+59/Adjective/able/having inherent physical or mental ability or capacity
+60/Adjective/able/have the skills and qualifications to do things well
+61/Adjective/abloom/bursting into flower
+62/Adjective/ablutionary/cleansing the body by washing; especially ritual washing of e.g. hands
+63/Verb/abnegate/deny or renounce
+64/Verb/abnegate/surrender (power or a position)
+65/Adjective/abnormal/much greater than the normal
+66/Adjective/abnormal/not normal; not typical or usual or regular or conforming to a norm
+67/Adjective/abnormal/departing from the normal in e.g. intelligence and development
+68/Adverb/abnormally/in an abnormal manner
+69/Adverb/aboard/on first or second or third base
+70/Adverb/aboard/on a ship, train, plane or other vehicle
+71/Adverb/aboard/part of a group
+72/Adverb/aboard/side by side
+73/Verb/abolish/do away with
+74/Adjective/abolishable/capable of being abolished
+75/Adjective/abolitionary/relating to or favoring abolition, especially abolition of slavery
+76/Adjective/abomasal/relating to the abomasum (the fourth compartment of the stomach of ruminants)
+77/Adjective/abominable/unequivocally detestable
+78/Adverb/aborad/away from the mouth or oral region
+79/Adjective/aboral/opposite to or away from the mouth
+80/Adjective/aboriginal/having existed from the beginning; in an earliest or original stage or state
+81/Verb/abort/terminate a pregnancy by undergoing an abortion
+82/Verb/abort/cease development, die, and be aborted
+83/Verb/abort/terminate before completion
+84/Adjective/abortifacient/causing abortion
+85/Adjective/abortive/failing to accomplish an intended result
+86/Adverb/abortively/in an unfruitful manner
+87/Verb/abound/be abundant or plentiful; exist in large quantities
+88/Verb/abound/be in a state of movement or action
+89/Adjective/abounding/existing in abundance
+90/Verb/abound_in/exist in large quantity
+91/Adverb/about/in the area or vicinity
+92/Adverb/about/all around or on all sides
+93/Adverb/about/in or to a reversed position or direction
+94/Adverb/about/used of movement to or among many different places or in no particular direction
+95/Adverb/about/(of actions or states) slightly short of or not quite accomplished; all but
+96/Adverb/about/in rotation or succession
+97/Adjective/about(p)/on the move
+98/Verb/about-face/change one's mind and assume the opposite viewpoint
+99/Verb/about-face/turn, usually 180 degrees
+100/Adjective/above/appearing earlier in the same text
+101/Adverb/above/at an earlier place
+102/Adverb/above/in or to a place that is higher
+103/Adjective/above-mentioned/mentioned or named earlier in the same text
+104/Adjective/aboveboard/without concealment or deception; honest
+105/Adjective/aboveground/on or above the surface of the ground
+106/Adverb/above_all/above and beyond all other consideration
+107/Verb/abrade/wear away
+108/Adjective/abranchiate/having no gills
+109/Adjective/abrasive/causing abrasion
+110/Verb/abreact/discharge bad feelings or tension through verbalization
+111/Adverb/abreast/alongside each other, facing in the same direction
+112/Adjective/abreast(p)/being up to particular standard or level especially in being up to date in knowledge
+113/Verb/abridge/lessen, diminish, or curtail
+114/Verb/abridge/reduce in scope while retaining essential elements
+115/Adjective/abridged/(used of texts) shortened by condensing or rewriting
+116/Adjective/abroach/of a cask or barrel
+117/Adjective/abroad/in a foreign country
+118/Adverb/abroad/to or in a foreign country
+119/Verb/abrogate/revoke formally
+120/Adjective/abrupt/surprisingly and unceremoniously brusque in manner
+121/Adjective/abrupt/exceedingly sudden and unexpected
+122/Adjective/abrupt/extremely steep
+123/Adjective/abrupt/marked by sudden changes in subject and sharp transitions
+124/Adverb/abruptly/quickly and without warning
+125/Adjective/abscessed/infected and filled with pus
+126/Verb/abscise/remove or separate by abscission
+127/Verb/abscise/shed flowers and leaves and fruit following formation of a scar tissue
+128/Verb/abscond/run away; usually includes taking something or somebody along
+129/Adjective/absent/lost in thought; showing preoccupation
+130/Adjective/absent/not being in a specified place
+131/Verb/absent/go away or leave
+132/Adverb/absently/in an absentminded or preoccupied manner
+133/Adjective/absolute/perfect or complete or pure
+134/Adjective/absolute/not capable of being violated or infringed
+135/Adjective/absolute/complete and without restriction or qualification; sometimes used informally as intensifiers
+136/Adjective/absolute/not limited by law
+137/Adjective/absolute/expressing finality with no implication of possible change
+138/Adverb/absolutely/totally and definitely; without question
+139/Adverb/absolutely/completely and without qualification; used informally as intensifiers
+140/Adjective/absolutist/pertaining to the principle of totalitarianism
+141/Verb/absolve/let off the hook
+142/Adjective/absolved/freed from any question of guilt
+143/Adjective/absolvitory/providing absolution
+144/Verb/absorb/cause to become one with
+145/Verb/absorb/consume all of one's attention or time
+146/Verb/absorb/take up mentally
+147/Verb/absorb/assimilate or take in
+148/Verb/absorb/take in, also metaphorically
+149/Verb/absorb/become imbued
+150/Verb/absorb/take up, as of debts or payments
+151/Verb/absorb/suck or take up or in
+152/Adjective/absorbable/capable of being absorbed or taken in through the pores of a surface
+153/Adjective/absorbed/retained without reflection
+154/Adjective/absorbefacient/inducing or promoting absorption
+155/Adjective/absorbent/having power or capacity or tendency to absorb or soak up something (liquids or energy etc.)
+156/Adjective/absorbing/capable of arousing and holding the attention
+157/Verb/abstain/choose not to consume
+158/Verb/abstain/refrain from voting
+159/Adjective/abstemious/sparing in consumption of especially food and drink
+160/Adjective/abstemious/marked by temperance in indulgence
+161/Adverb/abstemiously/in a sparing manner; without overindulgence
+162/Adjective/abstinent/self-restraining; not indulging an appetite especially for food or drink
+163/Adjective/abstract/existing only in the mind; separated from embodiment
+164/Adjective/abstract/dealing with a subject in the abstract without practical purpose or intention
+165/Adjective/abstract/not representing or imitating external reality or the objects of nature
+166/Verb/abstract/consider a concept without thinking of a specific example; consider abstractly or theoretically
+167/Verb/abstract/consider apart from a particular case or instance
+168/Verb/abstract/give an abstract (of)
+169/Adjective/abstractive/of an abstracting nature or having the power of abstracting
+170/Adverb/abstractly/in abstract terms
+171/Adjective/abstruse/difficult to penetrate; incomprehensible to one of ordinary understanding or knowledge
+172/Adverb/abstrusely/in a manner difficult to understand
+173/Adjective/absurd/inconsistent with reason or logic or common sense
+174/Adjective/absurd/incongruous;inviting ridicule
+175/Adverb/absurdly/in an absurd manner or to an absurd degree
+176/Adjective/abulic/suffering from abulia; showing abnormal inability to act or make decisions
+177/Adjective/abundant/present in great quantity
+178/Adverb/abundantly/in an abundant manner
+179/Verb/abuse/use wrongly or improperly or excessively
+180/Verb/abuse/use foul or abusive language towards
+181/Adjective/abused/subjected to cruel treatment
+182/Adjective/abused/used improperly or excessively especially drugs
+183/Adjective/abusive/characterized by physical or psychological maltreatment
+184/Adjective/abusive/expressing offensive reproach
+185/Adverb/abusively/in an abusive manner
+186/Adjective/abuzz/noisy like the sound of a bee
+187/Adjective/abysmal/resembling an abyss in depth; so deep as to be unmeasurable
+188/Adjective/abysmal/very great; limitless
+189/Adjective/abyssal/relating to ocean depths from 2000 to 5000 meters
+190/Adjective/academic/hypothetical or theoretical and not expected to produce an immediate or practical result
+191/Adjective/academic/marked by a narrow focus on or display of learning especially its trivial aspects
+192/Adjective/academic/associated with academia or an academy
+193/Adverb/academically/in regard to academic matters
+194/Adjective/acanthoid/shaped like a spine or thorn
+195/Adjective/acanthotic/of or relating to or having acanthosis
+196/Adjective/acapnic/relating to or demonstrating acapnia
+197/Adjective/acarpelous/having no carpels
+198/Adjective/acarpous/producing no fruit
+199/Adjective/acatalectic/(verse) metrically complete; especially having the full number of syllables in the final metrical foot
+200/Adjective/acaudate/lacking a tail or taillike appendage
+201/Adjective/acaulescent/(of plants) having no apparent stem above ground
+202/Verb/accede/take on duties or office
+203/Adjective/accelerando/gradually increasing in tempo
+204/Adverb/accelerando/with increasing speed
+205/Verb/accelerate/move faster
+206/Verb/accelerate/cause to move faster
+207/Adjective/accelerated/speeded up, as of an academic course
+208/Adjective/accelerative/tending to increase velocity
+209/Adjective/accentual/(of verse) having a metric system based on stress rather than syllables or quantity
+210/Adjective/accentual/of or pertaining to accent or stress
+211/Verb/accept/tolerate or accommodate oneself to
+212/Verb/accept/consider or hold as true
+213/Verb/accept/be sexually responsive to, used of a female domesticated mammal
+214/Verb/accept/react favorably to; consider right and proper
+215/Verb/accept/give an affirmative reply to; respond favorably to
+216/Verb/accept/receive (a report) officially, as from a committee
+217/Verb/accept/receive willingly something given or offered
+218/Verb/accept/admit into a group or community
+219/Verb/accept/be designed to hold or take
+220/Adjective/acceptable/worthy of acceptance or satisfactory
+221/Adjective/acceptable/adequate for the purpose
+222/Adjective/acceptable/judged to be in conformity with approved usage
+223/Adverb/acceptably/in an acceptable (but not outstanding) manner
+224/Adjective/accepted/generally approved or compelling recognition
+225/Adjective/accepting/tolerating without protest
+226/Adjective/acceptive/inclined to accept rather than reject
+227/Adjective/acceptive/accepting willingly
+228/Verb/access/reach or gain access to
+229/Verb/access/obtain or retrieve from a storage device; as of information on a computer
+230/Adjective/accessary/aiding and abetting in a crime
+231/Adjective/accessible/capable of being reached
+232/Adjective/accessible/easy to get along with or talk to; friendly
+233/Adjective/accessible/easily obtained
+234/Adjective/accessible/capable of being read with comprehension
+235/Verb/accession/make a record of additions to a collection, such as a library
+236/Adjective/accessional/of or constituting an accession
+237/Adjective/accessorial/nonessential but helpful
+238/Adjective/accessory/furnishing added support
+239/Adjective/accident-prone/having more than the average number of accidents
+240/Adjective/accidental/happening by chance or unexpectedly or unintentionally
+241/Adjective/accipitrine/of or relating to or belonging to the genus Accipiter (or to typical hawks)
+242/Verb/acclaim/praise vociferously
+243/Verb/acclimatize/get used to a certain climate
+244/Adjective/acclivitous/sloping upward
+245/Verb/accommodate/make (one thing) compatible with (another)
+246/Verb/accommodate/provide with something desired or needed
+247/Verb/accommodate/have room for; hold without crowding
+248/Adjective/accommodating/helpful in bringing about a harmonious adaptation
+249/Adjective/accommodating/obliging; willing to do favors
+250/Adjective/accommodational/of or relating to the accommodation of the lens of the eye
+251/Adjective/accommodative/tending to reconcile or accommodate; bringing into harmony
+252/Adjective/accommodative/willing to adjust to differences in order to obtain agreement
+253/Adjective/accompanied/having companions or an escort
+254/Adjective/accompanied/playing or singing with instrumental or vocal accompaniment
+255/Verb/accompany/go or travel along with
+256/Adjective/accomplishable/capable of existing or taking place or proving true; possible to do
+257/Adjective/accomplished/successfully completed or brought to an end
+258/Adjective/accomplished/settled securely and unconditionally
+259/Adjective/accomplished/highly skilled
+260/Verb/accord/allow to have
+261/Adjective/accordant/being in agreement or harmony; often followed by `with'
+262/Adjective/accordant/in keeping
+263/Adjective/according/(followed by `to') as reported or stated by
+264/Adjective/according/(followed by `to') in agreement with or accordant with
+265/Adverb/accordingly/in accordance with
+266/Verb/account/furnish a justifying analysis or explanation
+267/Verb/account/keep an account of
+268/Verb/account/be the sole or primary factor in the existence, acquisition, supply, or disposal of something
+269/Adjective/accountable/liable to account for one's actions
+270/Verb/account_for/give reasons for
+271/Verb/account_for/be the reason or explanation for
+272/Verb/accouter/provide with military equipment
+273/Adjective/accoutered/provided with necessary articles of equipment for a specialized purpose (especially military)
+274/Verb/accredit/ascribe an achievement to
+275/Verb/accredit/grant credentials to
+276/Verb/accredit/provide or send (envoys or embassadors) with official credentials
+277/Adjective/accredited/given official approval to act
+278/Verb/accrete/grow or become attached by accretion
+279/Verb/accrete/grow together (of plants and organs)
+280/Adjective/accretionary/marked or produced by accretion
+281/Adjective/accretive/growing by accretion
+282/Verb/accrue/grow by addition
+283/Verb/accrue/come into the possession of
+284/Adjective/accrued/periodically accumulated over time
+285/Verb/acculturate/assimilate culturally
+286/Adjective/acculturational/of or relating to acculturation
+287/Adjective/accumbent/lying down; in a position of comfort or rest
+288/Verb/accumulate/collect or gather
+289/Adjective/accumulative/marked by acquiring or amassing
+290/Adjective/accumulative/increasing by successive addition
+291/Adjective/accurate/conforming exactly or almost exactly to fact or to a standard or performing with total accuracy
+292/Adjective/accurate/(of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth ; strictly correct
+293/Adverb/accurately/with few mistakes
+294/Adverb/accurately/strictly correctly
+295/Verb/accurse/curse or declare to be evil or anathema or threaten with divine punishment
+296/Adjective/accursed/under a curse
+297/Adjective/accusative/containing or expressing accusation
+298/Adjective/accusatorial/specifically indicating a form of prosecution in which one is publicly accused of and tried for a crime and in which the judge is not also the prosecutor
+299/Verb/accuse/bring an accusation against; level a charge against
+300/Adverb/accusingly/in an accusing manner
+301/Adjective/accustomed/(often followed by `to') in the habit of or adapted to
+302/Adjective/accustomed/commonly used or practiced; usual
+303/Adjective/ace/of the highest quality
+304/Verb/ace/serve an ace against (someone)
+305/Verb/ace/play (a hole) in one stroke
+306/Verb/ace/score an ace against
+307/Adjective/acentric/not centered or having no center
+308/Adjective/acentric/lacking a centromere
+309/Adjective/acephalous/lacking a head or a clearly defined head
+310/Adjective/acerate/narrow and long and pointed; as pine leaves
+311/Adjective/acerb/harsh or corrosive in tone
+312/Adjective/acerb/sour or bitter in taste
+313/Verb/acerbate/make sour or bitter
+314/Adjective/acervate/pertaining to a growth of fungi that forms a heaped-up mass
+315/Adjective/acetabular/of the cup-shaped socket that receives the head of the thigh bone
+316/Adjective/acetic/relating to or containing acetic acid
+317/Adjective/acetonic/of or relating to acetone
+318/Adjective/acetose/tasting or smelling like vinegar
+319/Verb/acetylate/introduce an acetyl group into (a chemical compound)
+320/Verb/acetylate/receive substitution of an acetyl group
+321/Adjective/acetylenic/of or related to acetylene
+322/Adjective/acetylic/of or related to acetic acid
+323/Verb/ache/have a desire for something or someone who is not present
+324/Verb/ache/be the source of pain
+325/Adjective/achenial/pertaining to dry one-seeded indehiscent fruit
+326/Verb/achieve/to gain with effort
+327/Adjective/aching/causing a dull and steady pain
+328/Adjective/achlamydeous/not having a floral envelope or perianth
+329/Adjective/achlorhydric/lacking hydrochloric acid
+330/Adjective/achondritic/not having a granular structure
+331/Adjective/achondritic/of or related to an achondrite
+332/Adjective/achondroplastic/of or relating to achondroplasia
+333/Adjective/achromatic/having no hue
+334/Adjective/achromatinic/(of substance of a cell nucleus) not readily colored by stains
+335/Verb/achromatize/remove color from
+336/Adjective/achromatous/having little or inadequate color
+337/Adjective/achromic/having no color
+338/Adjective/aciculate/related to plants or animals or crystals having aciculae or needlelike parts
+339/Adjective/acid/having the characteristics of an acid
+340/Adjective/acid-fast/not easily decolorized by acid solutions; pertains to micro-organisms (especially the tubercle bacillus that causes tuberculosis)
+341/Adjective/acid-forming/yielding an acid in aqueous solution
+342/Adjective/acid-loving/thriving in a relatively acidic environment (especially of plants requiring a pH well below 7)
+343/Adjective/acid-tasting/having a sour acidic taste
+344/Verb/acid-wash/wash with acid so as to achieve a bleached look
+345/Adjective/acidic/being or containing an acid; of a solution having an excess of hydrogen atoms (having a pH of less than 7)
+346/Adjective/acidic/being sour to the taste
+347/Verb/acidify/turn acidic
+348/Adjective/acidimetric/involving or related to acidimetry
+349/Adjective/acidophilic/especially of some bacteria; growing well in an acid medium
+350/Adjective/acidotic/having or being characterized by acidosis
+351/Adjective/acinar/pertaining to the individual parts making up an aggregate fruit like a blackberry
+352/Adjective/acinar/pertaining to one of the small sacs (as in a compound gland)
+353/Verb/acknowledge/accept (someone) to be what is claimed or accept his power and authority
+354/Verb/acknowledge/accept as legally binding and valid
+355/Verb/acknowledge/express obligation, thanks, or gratitude for
+356/Verb/acknowledge/report the receipt of
+357/Adjective/acknowledgeable/capable of being acknowledged
+358/Adjective/acknowledged/recognized or made known or admitted
+359/Adjective/acknowledged/generally accepted
+360/Adjective/acned/(of complexion) blemished by imperfections of the skin
+361/Adjective/acneiform/resembling acne
+362/Adjective/acold/of persons; feeling cold
+363/Adjective/acorn-shaped/shaped like an acorn
+364/Adjective/acoustic/of or relating to the science of acoustics
+365/Adverb/acoustically/with respect to acoustics
+366/Verb/acquaint/inform
+367/Adjective/acquainted(p)/having fair knowledge of
+368/Adjective/acquiescent/willing to carry out the orders or wishes of another without protest
+369/Adjective/acquirable/capable of being acquired
+370/Verb/acquire/win something through one's efforts
+371/Verb/acquire/locate (a moving entity) by means of a tracking system such as radar
+372/Adjective/acquired/gotten through environmental forces
+373/Adjective/acquisitive/eager to acquire and possess things especially material possessions or ideas
+374/Verb/acquit/pronounce not guilty of criminal charges
+375/Adjective/acquitted/declared not guilty of a specific offense or crime; legally blameless
+376/Adjective/acrimonious/marked by strong resentment or cynicism
+377/Adjective/acritical/without a crisis (as of some diseases)
+378/Adjective/acrobatic/vigorously active
+379/Adjective/acrocarpous/(of mosses) having the archegonia at the top of the stem
+380/Adjective/acrocentric/having a subterminal centromere
+381/Adjective/acrogenic/pertaining to flowerless plants (ferns or mosses) in which growth occurs only at the tip of the main stem
+382/Adjective/acromegalic/marked or affected by enlargement or hypertrophy of the extremities or the face
+383/Adjective/acronymic/characterized by the use of acronyms
+384/Adjective/acropetal/of leaves or flowers; developing or opening in succession from base to apex
+385/Adjective/acrophobic/suffering from acrophobia; abnormally afraid of high places
+386/Adjective/acroscopic/facing or on the side toward the apex
+387/Adverb/across/transversely
+388/Adverb/across/to the opposite side
+389/Adjective/across-the-board/broad in scope or content
+390/Adverb/across_the_board/including all
+391/Verb/act/behave in a certain manner; show a certain behavior; conduct or comport oneself
+392/Verb/act/pretend to have certain qualities or state of mind
+393/Verb/act/discharge one's duties
+394/Verb/act/play a role or part
+395/Verb/act/perform on a stage or theater
+396/Verb/act/perform an action, or work out or perform (an action)
+397/Verb/act/be engaged in an activity, often for no particular purpose other than pleasure
+398/Verb/act/be suitable for theatrical performance
+399/Adjective/actable/capable of being acted; suitable for the stage
+400/Adjective/actinal/(of radiate organisms) located on the surface or end on which the mouth is situated
+401/Adjective/acting(a)/serving temporarily especially as a substitute
+402/Adjective/actinic/relating to or exhibiting actinism
+403/Adjective/actinoid/having a radial form
+404/Adjective/actinometric/of or related to actinometry
+405/Adjective/actinomorphic/capable of division into symmetrical halves by any longitudinal plane passing through the axis
+406/Adjective/actinomycetal/of or belonging to the actinomycetes
+407/Adjective/actinomycotic/of or related to actinomycosis infection
+408/Verb/action/institute legal proceedings against; file a suit against
+409/Adjective/actionable/affording grounds for legal action
+410/Verb/activate/make active or more active
+411/Verb/activate/make (substances) radioactive
+412/Verb/activate/aerate (sewage) so as to favor the growth of organisms that decompose organic matter
+413/Verb/activate/make more adsorptive
+414/Adjective/activated/(military) set up and placed on active assignment
+415/Adjective/activated/rendered active; e.g. rendered radioactive or luminescent or photosensitive or conductive
+416/Adjective/activated/(of e.g. a molecule) made reactive or more reactive
+417/Adjective/activated/(of sewage) treated with aeration and bacteria to aid decomposition
+418/Adjective/activating(a)/causing motion or action or change
+419/Adjective/active/characterized by energetic activity
+420/Adjective/active/engaged in full-time work
+421/Adjective/active/full of activity or engaged in continuous activity
+422/Adjective/active/tending to become more severe or wider in scope
+423/Adjective/active/disposed to take action or effectuate change
+424/Adjective/active/(of e.g. volcanos) erupting or liable to erupt
+425/Adjective/active/(of e.g. volcanos) capable of erupting
+426/Adjective/active/(used of verbs (e.g. `to run') and participial adjectives (e.g. `running' in `running water')) expressing action rather than a state of being
+427/Adjective/active/expressing that the subject of the sentence has the semantic function of actor: Hemingway favors active constructions
+428/Adjective/active/exerting influence or producing a change or effect
+429/Adjective/active/(of the sun) characterized by an increased occurrence of sunspots and flares and radio emissions
+430/Adjective/active/in operation
+431/Adjective/active/taking part in an activity
+432/Adjective/active/engaged in or ready for military or naval operations
+433/Adverb/actively/in an active manner
+434/Adjective/activist/advocating or engaged in activism
+435/Adjective/actual/presently existing in fact and not merely potential or possible
+436/Adjective/actual/being or existing at the present moment
+437/Adjective/actual/taking place in reality; not pretended or imitated
+438/Adjective/actual/existing in act or fact
+439/Adjective/actual/being or reflecting the essential or genuine character of something
+440/Verb/actualize/represent or describe realistically
+441/Adverb/actually/used to imply that one would expect the fact to be the opposite of that stated; surprisingly
+442/Adverb/actually/in actual fact
+443/Adverb/actually/as a sentence modifier to add slight emphasis
+444/Adverb/actually/at the present moment
+445/Adjective/actuarial/of or relating to the work of an actuary
+446/Adjective/actuated/moved to action
+447/Verb/act_as/function as or act like
+448/Verb/act_involuntarily/act in an uncontrolled manner
+449/Verb/act_on/regulate one's behavior in accordance with certain information, ideas, or advice
+450/Verb/act_out/represent an incident, state, or emotion by action, especially on stage
+451/Verb/act_up/make itself felt as a recurring pain
+452/Verb/act_up/misbehave badly; act in a silly or improper way
+453/Adjective/acuate/ending in a sharp point
+454/Adjective/aculeate/having or resembling a stinger or barb
+455/Adjective/acuminate/(of a leaf shape) narrowing to a slender point
+456/Verb/acuminate/make sharp or acute; taper; make (something) come to a point
+457/Adjective/acute/having or experiencing a rapid onset and short but severe course
+458/Adjective/acute/of critical importance and consequence
+459/Adjective/acute/extremely sharp or intense
+460/Adjective/acute/having or demonstrating ability to recognize or draw fine distinctions
+461/Adjective/acute/of an angle; less than 90 degrees
+462/Adverb/acutely/having a rapid onset
+463/Adverb/acutely/in an acute manner
+464/Adjective/acyclic/having an open chain structure
+465/Adjective/acyclic/not cyclic; especially having parts arranged in spirals rather than whorls
+466/Adjective/ad-lib/with little or no preparation or forethought
+467/Adjective/ad-lib/said or done without having been planned or written in advance
+468/Adjective/adactylous/without fingers and
+469/Adjective/adagio/(of tempo) leisurely
+470/Adverb/adagio/slowly
+471/Adjective/adamant/impervious to pleas, persuasion, requests, reason
+472/Adjective/adamantine/having the hardness of a diamond
+473/Adjective/adamantine/consisting of or having the hardness of adamant
+474/Adverb/adamantly/inflexibly; unshakably
+475/Verb/adapt/make fit for, or change to suit a new purpose
+476/Adjective/adaptable/capable of adapting (of becoming or being made suitable) to a particular situation or use
+477/Adjective/adaptational/of or relating to adaptation
+478/Adjective/adapted/changed in order to improve or made more fit for a particular purpose
+479/Adjective/adaptive/having a capacity for adaptation
+480/Adjective/adaxial/nearest to or facing toward the axis of an organ or organism
+481/Adverb/adaxially/in an adaxial manner
+482/Verb/add/make an addition (to); join or combine or unite with others; increase the quality, quantity, size or scope of
+483/Verb/add/make an addition by combining numbers
+484/Verb/add/state or say further
+485/Verb/add/constitute an addition
+486/Adjective/addable/capable of being added or added to
+487/Verb/addict/to cause (someone or oneself) to become dependent (on something, especially a narcotic drug)
+488/Adjective/addicted/compulsively or physiologically dependent on something habit-forming
+489/Adjective/addictive/causing or characterized by addiction
+490/Adverb/additionally/in addition, by way of addition; furthermore
+491/Adjective/additive/characterized or produced by addition
+492/Verb/addle/become rotten
+493/Verb/addle/mix up or confuse
+494/Adjective/addlebrained/stupid and confused
+495/Adjective/addled/confused and vague; used especially of thinking
+496/Adjective/addled/(of eggs) no longer edible
+497/Verb/address/adjust and aim (a golf ball) at in preparation of hitting
+498/Verb/address/speak to
+499/Verb/address/give a speech to
+500/Verb/address/speak to someone
+501/Verb/address/put an address on (an envelope)
+502/Verb/address/direct a question at someone
+503/Verb/address/address or apply oneself to something, direct one's efforts towards something, such as a question
+504/Verb/address/access or locate by address
+505/Verb/address/greet, as with a prescribed form, title, or name
+506/Adjective/addressable/capable of being addressed
+507/Adjective/addressed/(of mail) marked with a destination
+508/Verb/adduce/advance evidence for
+509/Adjective/adducent/especially of muscles; bringing together or drawing toward the midline of the body or toward an adjacent part
+510/Verb/adduct/draw a limb towards the body
+511/Verb/add_on/make an addition
+512/Verb/add_to/have an increased effect
+513/Adjective/adenocarcinomatous/of or pertaining to adenocarcinoma
+514/Adjective/adenoid/relating to or resembling lymphatic glands or lymphoid tissue
+515/Adjective/adenoidal/sounding as if the nose were pinched
+516/Adjective/adenoidal/of or pertaining to the adenoids
+517/Adjective/adept/having or showing knowledge and skill and aptitude
+518/Adjective/adequate/having the requisite qualities or resources to meet a task
+519/Adjective/adequate/sufficient for the purpose
+520/Adjective/adequate/about average; acceptable
+521/Adverb/adequately/in an adequate manner or to an adequate degree
+522/Adjective/adequate_to(p)/having the requisite qualities for
+523/Verb/adhere/follow through or carry out a plan without deviation
+524/Verb/adhere/stick to firmly
+525/Verb/adhere/be a devoted follower or supporter
+526/Verb/adhere/be compatible or in accordance with
+527/Adjective/adherent/sticking fast
+528/Adjective/adhesive/tending to adhere
+529/Adjective/adiabatic/occurring without loss or gain of heat
+530/Adjective/adient/characterized by acceptance or approach
+531/Adjective/adipose/composed of animal fat
+532/Adjective/adjacent/near or close to but not necessarily touching
+533/Adjective/adjacent/nearest in space or position; immediately adjoining without intervening space
+534/Adjective/adjacent/having a common boundary or edge; abutting; touching
+535/Adjective/adjectival/of or relating to or functioning as an adjective
+536/Adverb/adjectivally/as an adjective; in an adjectival manner
+537/Adjective/adjective/relating to court practice and procedure as opposed to the principles of law
+538/Adverb/adjectively/as an adjective
+539/Verb/adjoin/attach or add
+540/Verb/adjourn/close at the end of a session
+541/Verb/adjourn/break from a meeting or gathering
+542/Adjective/adjudicative/concerned with adjudicating
+543/Adjective/adjunct/of or relating to a person who is subordinate to another
+544/Adjective/adjunctive/joining; forming an adjunct
+545/Adjective/adjuratory/containing a solemn charge or command
+546/Adjective/adjuratory/earnestly or solemnly entreating
+547/Verb/adjure/command solemnly
+548/Verb/adjust/alter or regulate so as to achieve accuracy or conform to a standard
+549/Verb/adjust/make correspondent or conformable
+550/Verb/adjust/adapt or conform oneself to new or different conditions
+551/Verb/adjust/decide how much is to be paid on an insurance claim
+552/Adjective/adjustable/capable of being regulated
+553/Adjective/adjustable/capable of being changed so as to match or fit
+554/Adjective/adjusted/altered to accommodate to certain requirements or bring into a proper relation
+555/Adjective/adjusted/adjusted to demands of daily living; showing emotional stability
+556/Adjective/adjusted/(especially of garments) having the fit or style adjusted
+557/Adjective/adjusted/having achieved a comfortable relation with your environment
+558/Adjective/adjustive/conducive to adjustment
+559/Adjective/adjuvant/enhancing the action of a medical treatment
+560/Verb/admeasure/determine the quantity of someone's share
+561/Verb/administer/give or apply (medications)
+562/Verb/administer/perform (a church sacrament) ritually
+563/Verb/administer/work in an administrative capacity; supervise or be in charge of
+564/Verb/administer/direct the taking of
+565/Adjective/administrable/capable of being administered or managed
+566/Adjective/administrative/of or relating to or responsible for administration
+567/Adverb/administratively/by or for an administrator
+568/Adjective/admirable/deserving of the highest esteem or admiration
+569/Adjective/admirable/inspiring admiration or approval
+570/Adverb/admirably/in an admirable manner
+571/Verb/admire/feel admiration for
+572/Verb/admire/look at with admiration
+573/Adjective/admired/regarded with admiration
+574/Adverb/admiringly/with admiration
+575/Adjective/admissible/deserving to be admitted
+576/Adjective/admissive/characterized by or allowing admission
+577/Verb/admit/declare to be true or admit the existence or reality or truth of
+578/Verb/admit/allow participation in or the right to be part of; permit to exercise the rights, functions, and responsibilities of
+579/Verb/admit/allow to enter; grant entry to
+580/Verb/admit/serve as a means of entrance
+581/Verb/admit/give access or entrance to
+582/Verb/admit/afford possibility
+583/Adjective/admittable/deserving to be allowed to enter
+584/Verb/admix/mix or blend
+585/Verb/admonish/take to task
+586/Adjective/admonitory/expressing reproof or reproach especially as a corrective
+587/Adjective/admonitory/serving to warn
+588/Adjective/adnate/of unlike parts or organs; growing closely attached
+589/Adjective/adnexal/of or pertaining to adnexa
+590/Verb/adolesce/become adolescent; pass through adolescence
+591/Adjective/adolescent/in the state of development between puberty and maturity
+592/Adjective/adolescent/displaying or suggesting a lack of maturity
+593/Adjective/adolescent/being of the age 13 through 19
+594/Adjective/adolescent/relating to or peculiar to or suggestive of an adolescent
+595/Verb/adopt/take into one's family
+596/Verb/adopt/take up and practice as one's own
+597/Verb/adopt/choose and follow; as of theories, ideas, policies, strategies or plans
+598/Adjective/adoptable/suitable or eligible for adoption
+599/Adjective/adopted/acquired as your own by free choice
+600/Adjective/adoptive/of parents and children; related by adoption
+601/Adjective/adorable/lovable especially in a childlike or naive way
+602/Adverb/adorably/in an adorable manner
+603/Verb/adore/love intensely
+604/Adjective/adored/regarded with deep or rapturous love (especially as if for a god)
+605/Adjective/adoring/extravagantly or foolishly loving and indulgent
+606/Adjective/adoring/showing adoration
+607/Adverb/adoringly/with adoration
+608/Adjective/adorned/provided with something intended to increase its beauty or distinction
+609/Adjective/adrenal/of or pertaining to the adrenal glands or their secretions
+610/Adjective/adrenal/near the kidneys
+611/Adjective/adrenergic/relating to epinephrine (its release or action)
+612/Adjective/adrenocortical/of or derived from the cortex of the adrenal glands
+613/Adjective/adrenocorticotropic/stimulating or acting on the adrenal cortex
+614/Adverb/adrift/off course, wandering aimlessly
+615/Adverb/adrift/floating freely; not anchored
+616/Adjective/adrift(p)/afloat on the surface of a body of water
+617/Adjective/adrift(p)/aimlessly drifting
+618/Adjective/adroit/quick or skillful or adept in action or thought
+619/Adverb/adroitly/with adroitness; in an adroit manner
+620/Adjective/adscititious/supplemental; not part of the real or essential nature of a thing
+621/Adjective/adscititious/added or derived from something outside; not inherent
+622/Adjective/adscript/(used of persons) bound to a tract of land; hence their service is transferable from owner to owner
+623/Adjective/adscript/written or printed immediately following another character and aligned with it
+624/Verb/adsorb/accumulate (liquids or gases) on the surface
+625/Adjective/adsorbable/capable of being adsorbed or accumulated on a surface of a solid
+626/Adjective/adsorbent/having capacity or tendency to adsorb or cause to accumulate on a surface
+627/Verb/adulate/flatter in an obsequious manner
+628/Adjective/adulatory/obsequiously complimentary
+629/Adjective/adult/(of animals) fully developed
+630/Adjective/adulterate/mixed with impurities
+631/Adjective/adulterating/making impure or corrupt by adding extraneous materials
+632/Adjective/adulterine/conceived in adultery
+633/Adjective/adulterous/not faithful to a spouse or lover
+634/Adjective/adulterous/characterized by adultery
+635/Adverb/adulterously/in an adulterous manner
+636/Adjective/adumbrative/indistinctly prophetic
+637/Adjective/adust/burned brown by the sun
+638/Adjective/adust/dried out by heat or excessive exposure to sunlight
+639/Verb/advance/rise in rate or price
+640/Verb/advance/develop further
+641/Verb/advance/bring forward for consideration or acceptance
+642/Verb/advance/move forward, also in the metaphorical sense
+643/Verb/advance/cause to move forward
+644/Verb/advance/move forward
+645/Verb/advance/pay in advance
+646/Adjective/advance(a)/situated ahead or going before
+647/Adjective/advance(a)/being ahead of time or need
+648/Adjective/advanced/(of societies) highly developed especially in technology or industry
+649/Adjective/advanced/far along in time
+650/Adjective/advanced/ahead in development; complex or intricate
+651/Adjective/advanced/at a higher level in training or knowledge or skill
+652/Adjective/advanced/farther along in physical or mental development
+653/Adjective/advanced/ahead of the times
+654/Adjective/advanced(a)/comparatively late in a course of development
+655/Adjective/advancing/moving forward
+656/Verb/advantage/give an advantage to
+657/Adjective/advantageous/giving an advantage
+658/Adjective/advantageous/appropriate for achieving a particular end; implies a lack of concern for fairness
+659/Verb/advect/convey by horizontal mass movement of a fluid
+660/Adjective/advective/of or relating to advection
+661/Adjective/adventitial/of or pertaining to the adventitia
+662/Adjective/adventitious/associated by chance and not an integral part
+663/Adjective/adventive/not native and not fully established; locally or temporarily naturalized
+664/Adjective/adventuristic/of or pertaining to adventurism
+665/Adjective/adventurous/willing to undertake or seeking out new and daring enterprises
+666/Adjective/adverbial/of or relating to or functioning as an adverb
+667/Adverb/adverbially/as an adverb
+668/Adjective/adversative/expressing antithesis or opposition
+669/Adjective/adverse/in an opposing direction
+670/Adjective/adverse/contrary to your interests or welfare
+671/Adverb/adversely/in an adverse manner
+672/Adjective/advertent/giving attention
+673/Verb/advertise/call attention to
+674/Verb/advertise/make publicity for; try to sell (a product)
+675/Adjective/advertised/called to public attention
+676/Adjective/advisable/worthy of being recommended or suggested; prudent or wise
+677/Verb/advise/inform (somebody) of something
+678/Adjective/advised/having received information
+679/Adjective/advisory/giving advice
+680/Adjective/adynamic/lacking strength or vigor
+681/Adjective/ad_hoc/for or concerned with one specific purpose
+682/Adjective/ad_hoc/often improvised or impromptu
+683/Adverb/ad_hoc/for one specific case
+684/Adjective/ad_hominem/appealing to personal considerations (rather than to fact or reason)
+685/Adverb/ad_infinitum/to infinity; without or seemingly without limit
+686/Adverb/ad_interim/for an intervening time; temporarily
+687/Adverb/ad_lib/without advance preparation
+688/Adverb/ad_nauseam/to a sickening extent
+689/Adverb/ad_val/in proportion to the estimated value of the goods taxed
+690/Adjective/aecial/of or belonging to an aecium
+691/Adjective/aeolotropic/having properties with different values along different axes
+692/Adjective/aerated/(of a liquid) treated by having air passed or bubbled through it for purification
+693/Adjective/aerated/supplied with carbon dioxide
+694/Adjective/aerial/existing or living or growing or operating in the air
+695/Adverb/aerially/by means of aircraft
+696/Adjective/aeriferous/conveying air; as the bronchial tubes
+697/Adjective/aeriform/characterized by lightness and insubstantiality; as impalpable or intangible as air
+698/Adjective/aeriform/resembling air or having the form of air
+699/Adjective/aerobic/depending on free oxygen or air
+700/Adjective/aerobic/based on or using the principles of aerobics; enhancing respiratory and circulatory efficiency
+701/Adjective/aerobiotic/living or active only in the presence of oxygen
+702/Adjective/aerodynamic/of or relating to aerodynamics
+703/Adjective/aerolitic/of or pertaining to certain stony meteorites
+704/Adjective/aerological/of or pertaining to aerology
+705/Adjective/aeromechanic/of or pertaining to aerodynamics
+706/Adjective/aeromedical/of or relating to aviation medicine
+707/Adjective/aeronautical/of or pertaining to aeronautics
+708/Adjective/aerophilatelic/of or relating to airmail stamps
+709/Verb/aerosolize/disperse as an aerosol
+710/Verb/aerosolize/become dispersed as an aerosol
+711/Adjective/aerosolized/in the form of ultramicroscopic solid or liquid particles dispersed or suspended in air or gas
+712/Adjective/aesculapian/of or belonging to Aesculapius or the healing art
+713/Adjective/aesthetic/concerning or characterized by an appreciation of beauty or good taste
+714/Adjective/aesthetic/aesthetically pleasing
+715/Adjective/aesthetic/relating to or dealing with the subject of aesthetics
+716/Adverb/aesthetically/in a tasteful way
+717/Adjective/aestival/(rare) of or occurring in summer
+718/Adverb/afar/(old-fashioned) at or from or to a great distance; far
+719/Adjective/afeard(p)/a pronunciation of afraid
+720/Adjective/afebrile/having no fever
+721/Adjective/affable/diffusing warmth and friendliness
+722/Adverb/affably/in an affable manner
+723/Verb/affect/act physically on; have an effect upon
+724/Verb/affect/have an effect upon
+725/Verb/affect/have an emotional or cognitive impact upon
+726/Adjective/affected/acted upon; influenced
+727/Adjective/affected/speaking or behaving in an artificial way to make an impression
+728/Adverb/affectedly/in an affected manner
+729/Adjective/affecting/arousing affect
+730/Adverb/affectingly/in a poignant or touching manner
+731/Adjective/affectional/characterized by emotion
+732/Adjective/affectionate/having or displaying warmth or affection
+733/Adjective/afferent/of nerves and nerve impulses; conveying sensory information from the sense organs to the CNS
+734/Verb/affiliate/join in an affiliation
+735/Adjective/affiliated/being joined in close association
+736/Adjective/affinal/(anthropology) related by marriage
+737/Adjective/affine/(mathematics) of or pertaining to the geometry of affine transformations
+738/Adjective/affined/closely related
+739/Verb/affirm/to declare or affirm solemnly and formally as true
+740/Verb/affirm/say yes to
+741/Adjective/affirmable/capable of being affirmed or asserted
+742/Adjective/affirmative/affirming or giving assent
+743/Adjective/affirmative/expecting the best
+744/Adverb/affirmatively/in an affirmative manner
+745/Verb/affix/attach or become attached to a stem word
+746/Verb/affix/attach to
+747/Adjective/affixal/of or pertaining to a linguistic affix
+748/Adjective/affixed/firmly attached
+749/Verb/afflict/cause physical pain or suffering in
+750/Verb/afflict/cause great unhappiness for; distress
+751/Adjective/afflicted/mentally or physically unfit
+752/Adjective/afflicted/grievously affected especially by disease
+753/Adjective/afflictive/causing misery or pain or distress
+754/Adjective/affluent/having an abundant supply of money or possessions of value
+755/Verb/afford/be able to spare or give up
+756/Verb/afford/afford access to
+757/Verb/afford/have the financial means to do something or buy something
+758/Verb/afforest/establish a forest on previously unforested land
+759/Verb/affranchise/grant freedom to; as from slavery or servitude
+760/Adverb/afield/off the subject; beyond the point at issue
+761/Adverb/afield/in or into a field (especially a field of battle)
+762/Adverb/afield/far away from home or one's usual surroundings
+763/Adjective/aflare/streaming or flapping or spreading wide as if in a current of air
+764/Adjective/afloat(p)/borne on the water; floating
+765/Adjective/afloat(p)/covered with water
+766/Adjective/aflutter/excited in anticipation
+767/Adverb/afoot/on foot; walking
+768/Adjective/afoot(p)/currently in progress
+769/Adjective/afoot(p)/traveling by foot
+770/Adjective/aforesaid(a)/being the one previously mentioned or spoken of
+771/Adjective/aforethought(ip)/planned in advance
+772/Adjective/afoul(ip)/especially of a ship's lines etc
+773/Adjective/afraid/filled with regret or concern; used often to soften an unpleasant statement
+774/Adjective/afraid/feeling worry or concern or insecurity
+775/Adjective/afraid/having feelings of aversion or unwillingness
+776/Adjective/afraid(p)/filled with fear or apprehension
+777/Adverb/afresh/again but in a new or different way
+778/Adverb/aft/at or near or toward the stern of a ship or tail of an airplane
+779/Adjective/aft(a)/(nautical, aeronautical) situated at or toward the stern or tail
+780/Adverb/after/behind or in the rear
+781/Adjective/after(a)/located farther aft
+782/Adjective/after-hours/after closing time especially a legally established closing time
+783/Adjective/after-school(a)/outside regular school hours
+784/Adjective/aftermost/located closest to the stern or tail
+785/Adjective/aftershafted/having an aftershaft (a small feather at the base of some feathers)
+786/Adverb/after_all/emphasizes something to be considered
+787/Adverb/after_all/in spite of expectations
+788/Adverb/after_a_fashion/to some extent; not very well
+789/Adverb/after_hours/not during regular hours
+790/Adverb/again/anew
+791/Adverb/against_the_clock/as fast as possible; before a deadline
+792/Adjective/agamic/(of reproduction) not involving the fusion of male and female gametes in reproduction
+793/Adjective/agape(p)/with the mouth wide open as in wonder or awe
+794/Adjective/agaze/(used of eyes) open and fixed as if in fear or wonder
+795/Verb/age/begin to seem older; get older
+796/Verb/age/make older
+797/Adjective/age-old/belonging to or lasting from times long ago
+798/Adjective/age-related/changing (increasing or decreasing) as an individual's age increases
+799/Adjective/aged/(used of tobacco) aging as a preservative process (`aged' is pronounced as one syllable)
+800/Adjective/aged/of wines, fruit, cheeses; having reached a desired or final condition; (`aged' pronounced as one syllable)
+801/Adjective/aged/advanced in years; (`aged' is pronounced as two syllables)
+802/Adjective/aged/at an advanced stage of erosion (pronounced as one syllable)
+803/Adjective/aged(a)/having attained a specific age; (`aged' is pronounced as one syllable)
+804/Adjective/ageless/continuing forever or indefinitely
+805/Adjective/agelong/lasting through all time
+806/Adjective/agential/of or relating to an agent or agency
+807/Adjective/agglomerate/clustered together but not coherent
+808/Verb/agglomerate/form into one cluster
+809/Adjective/agglutinate/united as if by glue
+810/Verb/agglutinate/clump together; as of bacteria, red blood cells, etc.
+811/Verb/agglutinate/string together (morphemes in an agglutinating language)
+812/Adjective/agglutinative/forming derivative or compound words by putting together constituents each of which expresses a single definite meaning
+813/Verb/aggrade/build up to a level by depositing sediment
+814/Adjective/aggravated/incited, especially deliberately, to anger
+815/Adjective/aggravated/made more severe or intense especially in law
+816/Adjective/aggravating/making worse
+817/Adverb/aggravatingly/in an aggravating fashion
+818/Adjective/aggregate/formed of separate units gathered into a mass or whole
+819/Adjective/aggregate/composed of a dense cluster of separate units such as carpels or florets or drupelets
+820/Verb/aggregate/gather in a mass, sum, or whole
+821/Verb/aggregate/amount in the aggregate to
+822/Adjective/aggressive/having or showing determination and energetic pursuit of your ends
+823/Adjective/aggressive/characteristic of an enemy or one eager to fight
+824/Adjective/aggressive/tending to spread quickly
+825/Adverb/aggressively/in an aggressive manner
+826/Verb/aggrieve/infringe on the rights of
+827/Adjective/aghast(p)/struck with fear, dread, or consternation
+828/Adjective/agile/moving quickly and lightly
+829/Adjective/agile/mentally quick
+830/Adverb/agilely/in a nimble or agile manner; with quickness and lightness and ease
+831/Adjective/aging/growing old
+832/Verb/agitate/change the arrangement or position of
+833/Verb/agitate/cause to be agitated, excited, or roused
+834/Verb/agitate/try to stir up public opinion
+835/Adjective/agitated/troubled emotionally and usually deeply
+836/Adjective/agitated/physically disturbed or set in motion
+837/Adjective/agitative/causing or tending to cause anger or resentment
+838/Adjective/agleam/bright with a steady but subdued shining
+839/Adjective/aglitter(p)/having brief brilliant points or flashes of light
+840/Adjective/aglow(p)/softly bright or radiant
+841/Adjective/agnate/related on the father's side
+842/Adjective/agnostic/uncertain of all claims to knowledge
+843/Adjective/agnostic/of or pertaining to an agnostic or agnosticism
+844/Adjective/ago/gone by; or in the past
+845/Adverb/ago/in the past
+846/Adjective/agog/highly excited
+847/Adjective/agonadal/lacking gonads
+848/Adjective/agonal/pertaining to or associated with agony (especially death agonies)
+849/Adjective/agonistic/struggling for effect
+850/Adjective/agonistic/striving to overcome in argument
+851/Adjective/agonistic/of or relating to the athletic contests held in ancient Greece
+852/Verb/agonize/suffer agony or anguish
+853/Verb/agonize/cause to agonize
+854/Adjective/agonized/expressing pain or agony
+855/Adjective/agonizing/extremely painful
+856/Adverb/agonizingly/in a very painful manner
+857/Adjective/agoraphobic/suffering from agoraphobia; abnormally afraid of open or public places
+858/Adjective/agranulocytic/relating to the blood disorder of agranulocytosis
+859/Adjective/agraphic/relating to or having agraphia
+860/Adjective/agrarian/relating to rural matters
+861/Verb/agree/consent or assent to a condition, or agree to do something
+862/Verb/agree/be in accord; be in agreement
+863/Verb/agree/achieve harmony of opinion, feeling, or purpose
+864/Verb/agree/be agreeable or suitable
+865/Verb/agree/show grammatical agreement
+866/Adjective/agreeable/conforming to your own liking or feelings or nature
+867/Adjective/agreeable/prepared to agree or consent
+868/Adjective/agreed/united by being of the same opinion
+869/Adjective/agreed_upon(p)/constituted or contracted by stipulation or agreement
+870/Adjective/agrestic/(of behavior) rustic and uncouth
+871/Adjective/agrestic/characteristic of the fields or country
+872/Adjective/agricultural/relating to or used in or promoting agriculture or farming
+873/Adjective/agrobiologic/of or pertaining to agrobiology
+874/Adjective/agrologic/of or related to agrology
+875/Adjective/agronomic/of or relating to or promoting agronomy
+876/Adverb/aground/with the bottom lodged on the ground
+877/Adjective/aground(p)/stuck in a place where a ship can no longer float
+878/Adjective/agrypnotic/of or pertaining to agrypnia
+879/Adjective/aguish/affected by ague
+880/Adverb/ahead/at or in the front
+881/Adverb/ahead/ahead of time; in anticipation
+882/Adverb/ahead/in a forward direction
+883/Adverb/ahead/leading or ahead in a competition
+884/Adverb/ahead/to a different or a more advanced time (meaning advanced either toward the present or toward the future)
+885/Adverb/ahead/to a more advanced or advantageous position
+886/Adverb/ahead/toward the future; forward in time
+887/Adjective/ahead(p)/having the leading position or higher score in a contest
+888/Adverb/ahead_of_the_game/in an advantageous position
+889/Adjective/ahistorical/unconcerned with or unrelated to history or to historical development or to tradition
+890/Adjective/ahorse(p)/traveling on horseback
+891/Verb/ail/be ill or unwell
+892/Adjective/ailing/somewhat ill or prone to illness
+893/Verb/aim/propose or intend
+894/Verb/aim/direct (a remark) toward an intended goal
+895/Verb/aim/point or cause to go (blows, weapons, or objects such as photographic equipment) towards
+896/Adjective/aimless/continually changing especially as from one abode or occupation to another
+897/Adverb/aimlessly/without aim; in an aimless manner
+898/Verb/air/expose to warm or heated air, so as to dry
+899/Verb/air/broadcast over the airwaves, as in radio or television
+900/Verb/air/be broadcast
+901/Adjective/air-breathing/deriving oxygen from the air
+902/Verb/air-condition/control the humidity and temperature of
+903/Adjective/air-conditioned/cooled by air conditioning
+904/Verb/air-cool/equip with an apparatus for controlling the humidity and temperature
+905/Adjective/air-cooled/cooled by a flow of air
+906/Adjective/air-dried/made dry by contact with unheated air
+907/Verb/air-drop/drop (an object) from the air; unload from a plane or helicopter
+908/Adjective/air-dry/not giving off moisture on exposure to the air
+909/Adjective/air-filled/full of air
+910/Verb/air-ship/transport (cargo) by air
+911/Verb/air-slake/alter by exposure to air with conversion at least in part to a carbonate
+912/Adjective/air-to-air/operating between or launched from or involving rockets or aircraft in flight
+913/Adjective/air-to-surface/operating from or designed to be fired from aircraft at targets on the ground
+914/Adjective/airborne/moved or conveyed by or through air
+915/Verb/airbrush/paint with an airbrush
+916/Adjective/aired/open to or abounding in fresh air
+917/Adjective/airheaded/lacking seriousness; given to frivolity
+918/Adjective/airless/lacking fresh air
+919/Verb/airlift/fly people or goods to or from places not accessible by other means
+920/Verb/airmail/send or transport by airmail
+921/Adjective/airsick/experiencing motion sickness
+922/Adjective/airtight/not allowing air or gas to pass in or out
+923/Adjective/airtight/having no weak points
+924/Adjective/airworthy/(of aircraft) fit to fly
+925/Adjective/airy/having little or no perceptible weight; so light as to resemble air
+926/Adjective/airy/not practical or realizable; speculative
+927/Verb/air_out/expose to fresh air
+928/Adjective/ajar(p)/slightly open
+929/Adverb/akimbo/with hands on hips and elbows extending outward
+930/Adjective/akimbo(ip)/(used of arms and legs) bent outward with the joint away from the body
+931/Adjective/akin(p)/related by blood
+932/Adjective/akin(p)/similar in quality or character
+933/Adjective/alabaster/of or resembling alabaster
+934/Adjective/alacritous/quick and eager
+935/Adjective/alar/having or resembling wings
+936/Verb/alarm/warn or arouse to a sense of danger or call to a state of preparedness
+937/Adjective/alarmed/experiencing a sudden sense of danger
+938/Adjective/alarming/frightening because of an awareness of danger
+939/Adverb/alarmingly/in an alarming manner
+940/Adjective/alate/(of seeds or insects) having winglike extensions
+941/Adjective/albescent/becoming or shading into white
+942/Adjective/albinal/of or pertaining to or affected by albinism
+943/Adjective/albitic/of or related to albite feldspar
+944/Adjective/albuminous/relating to or containing or resembling albumin
+945/Adjective/albuminuric/of or related to the state of albuminuria
+946/Adjective/alchemic/related to or concerned with alchemy
+947/Adjective/alchemistic/of or relating to alchemists
+948/Verb/alchemize/alter (elements) by alchemy
+949/Adjective/alcohol-soluble/soluble in alcohol
+950/Adjective/alcoholic/addicted to alcohol
+951/Adjective/alcoholic/characteristic of or containing alcohol
+952/Verb/alcoholize/make alcoholic, as by fermenting
+953/Verb/alcoholize/treat or infuse with alcohol
+954/Verb/alcoholize/subject to the influence of alcohol
+955/Adjective/aldehydic/of or related to or containing aldehydes
+956/Adjective/aldermanic/of or relating to or like an alderman
+957/Adjective/aleatory/dependent on chance
+958/Adverb/alee/on or toward the lee
+959/Adjective/alert/engaged in or accustomed to close observation
+960/Adjective/alert/mentally perceptive and responsive;an alert mind
+961/Adjective/alert/quick and energetic
+962/Adverb/alertly/in mentally perceptive and responsive way
+963/Adjective/aleuronic/of or related to aleurone
+964/Adjective/alexic/of or relating to or symptomatic of alexia
+965/Adjective/alfresco/in the open air
+966/Adjective/algal/of or relating to alga
+967/Adjective/algebraic/of or relating to algebra
+968/Adverb/algebraically/in an algebraic manner
+969/Adjective/algid/chilly
+970/Adjective/algoid/of or resembling algae
+971/Adjective/algolagnic/of or relating to algolagnia
+972/Adjective/algometric/of or related to algometry
+973/Adjective/algophobic/suffering from algophobia; abnormally afraid of pain
+974/Adjective/algorithmic/of or relating to or having the characteristics of an algorithm
+975/Adverb/alias/as known or named at another time or place
+976/Verb/alibi/exonerate by means of an alibi
+977/Adjective/alien/being or from or characteristic of another place or part of the world
+978/Adjective/alien/not contained in or deriving from the essential nature of something
+979/Verb/alien/transfer property or ownership
+980/Adjective/alienable/transferable to another owner
+981/Verb/alienate/make withdrawn or isolated or emotionally dissociated
+982/Adjective/alienated/caused to be unloved
+983/Adjective/alienated/socially disoriented
+984/Adjective/alienating/causing hostility or loss of friendliness
+985/Verb/alight/come down
+986/Verb/alight/to come to rest, settle
+987/Verb/align/place in a line or arrange so as to be parallel or straight
+988/Verb/align/bring (components or parts) into proper or desirable coordination correlation
+989/Verb/align/align oneself with a group or a way of thinking
+990/Verb/align/be or come into adjustment with
+991/Adjective/aligned/brought into agreement or cooperation on the side of a faction, party, or cause
+992/Adjective/aligned/in a straight line
+993/Adjective/aligning/causing to fall into line or into position
+994/Adverb/alike/in a like manner
+995/Adverb/alike/equally
+996/Adjective/alike(p)/having the same or similar characteristics
+997/Adjective/alimentary/of or providing nourishment
+998/Adjective/alimentative/related to the supply of aliment
+999/Adjective/aliphatic/having carbon atoms linked in open chains
+1000/Adjective/aliquot/signifying an exact divisor or factor of a quantity
+

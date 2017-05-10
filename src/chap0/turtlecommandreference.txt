@@ -1,0 +1,176 @@
+﻿JAVA TURTLE COMMANDS
+by John Phillips
+last revised 8/30/2016
+
+1. Move Turtle in a Straight Line
+
+  a. Move the turtle forward the given distance drawing a line if the pen is down.
+  
+    forward(distance)
+    fd(distance)
+
+  b. Move the turtle backward the given distance drawing a line if the pen is down.
+  
+    backward(distance)
+    back(distance)
+    bk(distance)
+	
+  c. Move the turtle to the specified point drawing a line if the pen is down.
+  
+    drawXY(x, y)
+
+  d. Move the turtle to the home position at the center of the screen drawing a line if the pen is down.
+  
+    home()	
+
+2. Turning the Turtle
+
+  a. Rotate the turtle right (clockwise) the given angle in degrees.
+  
+    right(angle)
+    rt(angle)	
+	
+  b. Rotate the turtle left (counter-clockwise) the given angle in degrees.
+  
+    left(angle)
+    lt(angle)
+
+  c. Turn the turtle clockwise to the specified angle.
+  
+    setHeading(angle)	
+
+3. Drawing Shapes - filled shapes are filled in with the current pen color.
+
+  a. Draw a circle or filled circle centered on the current location with a given radius.
+
+    circle(radius)
+    filledCircle(radius)
+  
+  b. Draw an oval or filled oval centered on the current location with a given width and height.
+ 
+    oval(width, height)	
+    filledOval(width, height)
+	
+  c. Draw a square or filled square starting the current location and current direction with a given width.
+	
+    square(width)	
+    filledSquare(width)
+
+  d. Draw a rectangle or filled rectangle starting the current location and current direction with a given width and height.
+	
+    rectangle(width, height)	
+    filledRectangle(width, height)
+	
+  e. Draw an arc.
+
+    arc(width, height, startAngle, arcAngle)	
+ 
+4. Controlling the Drawing Process
+
+  a. Pick the pen up so that no drawing will take place as the turtle moves.
+
+    penUp()
+    pu()
+	
+  b. Put the pen down so that the turtle can draw as it moves.
+  
+    penDown()
+    pd()	
+
+  c. Set the location of the turtle without drawing.
+	
+	setXY()
+
+  d. Set the color for the turtle to draw.
+    
+	setPenColor(color)
+	
+  e. Set the line width for the turtle to draw.  
+    
+    setPenSize(pixels)	
+	
+  f. Clear the screen to the default background color.	
+    
+	clearScreen()
+    
+  g. Clear the screen and set the given background color.
+	
+	clearScreen(color)	
+
+  h. Show or hide the turtle on the screen.
+  
+    showTurtle()
+    st()
+	
+    hideTurtle()
+    ht()
+
+  i. Set the delay between drawing commands in milliseconds. The command setDelay(500) would cause a half second delay. 
+     The command setDelay(0) would be no delay at all. However, the screen would still be updated after each command and 
+	 this slows down the drawing process. For the fastest drawing time use setDelay(-1) and then end your drawing commands with draw().
+	 
+	setDelay(delay)
+	
+  j. Have the hidden drawing buffer refresh the visible screen.
+
+    draw()	
+
+5. Input and Output Commands
+
+  a. Display your message on the drawing screen. The default say location is the bottom left of the screen.
+  
+    say(message)
+    say(message, x, y)
+    say(message, x, y, fontSize)
+    say(message, x, y, color)
+    say(message, x, y, fontSize, color)	
+	
+  b. Display your message in a pop up dialog box.
+  
+    outputDialog(message)
+	
+  c. Display your message and retrieve your input using a popup dialog box.
+  
+    inputDialog(message)	
+
+  d. Display your message in the NetBeans Output window.
+  
+    print(message)	
+
+6. Informational Commands
+
+  a. Returns a string with information about the turtle’s current position.
+  
+    about()
+	
+  b. Turns tracing on or off. Tracing on will report information as the turtle moves around.
+  
+    setTraceOn()	
+    setTraceOff()
+	
+  c. Gets the heading angle in degrees.
+	
+    getHeading()
+
+  d. Gets the turtles current x or y coordinate.
+  
+    getTurtleX()	
+    getTurtleY()
+
+7. Screen Constants - the defauls can be changed in turtle class DrawingPanel
+
+  a. This constant contains the drawing panel width.
+  
+    PANEL_WIDTH	
+	
+  b. This constant contains the drawing panel height.
+  
+    PANEL_HEIGHT	
+
+8. Color Constants - the following names can be used for colors
+
+  Color.black, Color.blue, Color.cyan, Color.darkGray, Color.gray, 
+  Color.green, Color.lightGray, Color.magenta, Color.orange, 
+  Color.pink, Color.red, Color.white, Color.yellow
+
+
